@@ -2,6 +2,7 @@ baseURL = "http://example.org/"
 languageCode = "en-us"
 title = "hughsambros."
 theme = "osaron"
+disqusShortname = "hughsambros"
 [taxonomies]
     tag = "tags"
     category = "categories"

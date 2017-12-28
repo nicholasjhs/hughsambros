@@ -59,56 +59,9 @@
                 <!-- post comment -->
                 <div class="blog-comment-main xs-no-padding-top">
                     <h5 class="widget-title">Blog Comments</h5>
-                    <div class="blog-comment">
-                        <a class="comment-avtar"><img src="http://placehold.it/300x300" alt=""></a>
-                        <div class="comment-text overflow-hidden position-relative">
-                            <p class="blog-date no-padding-top"><a href="#">Nathan Ford</a>, March 09, 2015 <a href="#addcomment" class="comment-reply inner-link">Reply</a></p>
-                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s. Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-                        </div>
-                        <div class="blog-comment clearfix">
-                            <a class="comment-avtar"><img src="http://placehold.it/300x300" alt=""></a>
-                            <div class="comment-text overflow-hidden position-relative">
-                                <p class="blog-date no-padding-top"><a href="#">Paul Scrivens</a>, March 09, 2015 <a href="#addcomment" class="comment-reply inner-link">Reply</a></p>
-                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s. Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="blog-comment">
-                        <a class="comment-avtar"><img src="http://placehold.it/300x300" alt=""></a>
-                        <div class="comment-text overflow-hidden position-relative">
-                            <p class="blog-date no-padding-top"><a href="#">Colin Powell</a>, March 07, 2015 <a href="#addcomment" class="comment-reply inner-link">Reply</a></p>
-                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s. Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-                        </div>
-                    </div>
+                    {{ partial "comment-section" .}}
                 </div>
                 <!-- end post comment -->
-                <!-- comment form -->
-                <div id="addcomment" class="blog-comment-form-main">
-                    <h5 class="widget-title margin-five no-margin-top">Add a comment</h5>
-                    <div class="blog-comment-form">
-                        <form>
-                            <!-- input -->
-                            <input type="text" name="name" placeholder="Name">
-                            <!-- end input -->
-                            <!-- input  -->
-                            <input type="text" name="email" placeholder="Email">
-                            <!-- end input -->
-                            <!-- input  -->
-                            <input type="text" name="website" placeholder="Website">
-                            <!-- end input -->
-                            <!-- textarea  -->
-                            <textarea name="comment" placeholder="Comment"></textarea>
-                            <!-- end textarea  -->
-                            <!-- required  -->
-                            <span class="required">*Please complete all fields correctly</span>
-                            <!-- end required  -->
-                            <!-- button  -->
-                            <input type="submit" name="send message" value="send message" class="highlight-button-dark btn btn-small no-margin-bottom">
-                            <!-- end button  -->
-                        </form>
-                    </div>
-                </div>
-                <!-- end comment form -->
             </div>
             <!-- end content  -->
             <!-- sidebar  -->
@@ -128,7 +81,7 @@
                     <div class="widget-body">
                         <ul class="category-list">
                             {{ range $name, $taxonomy := .Site.Taxonomies.categories }}
-                                <li><a href="/categories/{{ $name | urlize }}">{{ $name | humanize }} ({{ $taxonomy.Count }})</a></li>
+                                <li><a href="/categories/{{ $name | urlize }}">{{ $name | upper }} ({{ $taxonomy.Count }})</a></li>
                             {{end}}
                         </ul>
                     </div>
