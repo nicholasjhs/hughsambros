@@ -4,9 +4,7 @@
 name = "Osaron"
 author = "Nicholas Hugh Sam"
 license = "MIT"
-licenselink = "https://github.com/yourname/yourtheme/blob/master/LICENSE.md"
 description = "Template based on the H-CODE HTML template"
-homepage = "http://example.com/"
 tags = []
 features = []
 min_version = "0.31.1"

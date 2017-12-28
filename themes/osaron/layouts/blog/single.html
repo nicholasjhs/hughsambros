@@ -1,0 +1,192 @@
+{{ define "main" }}
+<!-- head section -->
+<section class="content-top-margin page-title page-title-small bg-gray">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8 col-sm-12 wow fadeInUp" data-wow-duration="300ms">
+                <!-- page title -->
+                <h1 class="black-text">Blog Single</h1>
+                <!-- end page title -->
+            </div>
+            <div class="col-md-4 col-sm-12 breadcrumb text-uppercase wow fadeInUp xs-display-none" data-wow-duration="600ms">
+                <!-- breadcrumb -->
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li>Blog Single</li>
+                </ul>
+                <!-- end breadcrumb -->
+            </div>
+        </div>
+    </div>
+</section>
+<!-- end head section -->
+
+<!-- content section -->
+<section class="wow fadeIn">
+    <div class="container">
+        <div class="row">
+            <!-- content  -->
+            <div class="col-md-8 col-sm-8">
+                <!-- post title  -->
+                <h2 class="blog-details-headline text-black">{{ .Title }}</h2>
+                <!-- end post title  -->
+                <!-- post date and categories  -->
+                <div class="blog-date no-padding-top">Posted by <a href="blog-masonry-3columns.html">{{if .Params.author}}{{ .Params.Author }}{{end}}</a> | {{if .PublishDate}}{{ .PublishDate.Format "02 January 2006"}}{{end}}</div>
+                <!-- end date and categories   -->
+                <!-- post image -->
+                <div class="blog-image margin-eight"><img src="{{ if .Params.img }} {{ .Params.img }} {{ else }} http://placehold.it/1920x1080 {{end}}" alt="" ></div>
+                <!-- end post image -->
+                <!-- post details text -->
+                <div class="blog-details-text">
+                    {{ .Content }}
+                    <div class="blog-date no-padding-top margin-eight no-margin-bottom">
+                        <!-- post tags -->
+                        <h5 class="widget-title margin-one no-margin-top">Tags</h5>
+                        {{if .Params.tags}}
+                            {{ range .Params.tags}}
+                                <a href="{{ "/tags/" | relLangURL }}{{ . | urlize }}">{{ . }}</a> ,
+                            {{end}}
+                        {{end}}
+                    </div>
+                    <!-- end post tags -->
+                </div>
+                <!-- end post details text -->
+                <!-- social icon -->
+                <div class="text-center border-bottom margin-ten padding-four no-margin-top">
+                </div>
+                <!-- end social icon -->
+                <!-- post comment -->
+                <div class="blog-comment-main xs-no-padding-top">
+                    <h5 class="widget-title">Blog Comments</h5>
+                    <div class="blog-comment">
+                        <a class="comment-avtar"><img src="http://placehold.it/300x300" alt=""></a>
+                        <div class="comment-text overflow-hidden position-relative">
+                            <p class="blog-date no-padding-top"><a href="#">Nathan Ford</a>, March 09, 2015 <a href="#addcomment" class="comment-reply inner-link">Reply</a></p>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s. Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                        </div>
+                        <div class="blog-comment clearfix">
+                            <a class="comment-avtar"><img src="http://placehold.it/300x300" alt=""></a>
+                            <div class="comment-text overflow-hidden position-relative">
+                                <p class="blog-date no-padding-top"><a href="#">Paul Scrivens</a>, March 09, 2015 <a href="#addcomment" class="comment-reply inner-link">Reply</a></p>
+                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s. Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="blog-comment">
+                        <a class="comment-avtar"><img src="http://placehold.it/300x300" alt=""></a>
+                        <div class="comment-text overflow-hidden position-relative">
+                            <p class="blog-date no-padding-top"><a href="#">Colin Powell</a>, March 07, 2015 <a href="#addcomment" class="comment-reply inner-link">Reply</a></p>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s. Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- end post comment -->
+                <!-- comment form -->
+                <div id="addcomment" class="blog-comment-form-main">
+                    <h5 class="widget-title margin-five no-margin-top">Add a comment</h5>
+                    <div class="blog-comment-form">
+                        <form>
+                            <!-- input -->
+                            <input type="text" name="name" placeholder="Name">
+                            <!-- end input -->
+                            <!-- input  -->
+                            <input type="text" name="email" placeholder="Email">
+                            <!-- end input -->
+                            <!-- input  -->
+                            <input type="text" name="website" placeholder="Website">
+                            <!-- end input -->
+                            <!-- textarea  -->
+                            <textarea name="comment" placeholder="Comment"></textarea>
+                            <!-- end textarea  -->
+                            <!-- required  -->
+                            <span class="required">*Please complete all fields correctly</span>
+                            <!-- end required  -->
+                            <!-- button  -->
+                            <input type="submit" name="send message" value="send message" class="highlight-button-dark btn btn-small no-margin-bottom">
+                            <!-- end button  -->
+                        </form>
+                    </div>
+                </div>
+                <!-- end comment form -->
+            </div>
+            <!-- end content  -->
+            <!-- sidebar  -->
+            <div class="col-md-3 col-sm-4 col-md-offset-1 sidebar xs-margin-top-ten">
+                <!-- widget  -->
+                <div class="widget">
+                    <form>
+                        <i class="fa fa-search close-search search-button"></i>
+                        <input type="text" placeholder="Search..." class="search-input" name="search">
+                    </form>
+                </div>
+                <!-- end widget  -->
+                <!-- widget  -->
+                <div class="widget">
+                    <h5 class="widget-title font-alt">Categories</h5>
+                    <div class="thin-separator-line bg-dark-gray no-margin-lr"></div>
+                    <div class="widget-body">
+                        <ul class="category-list">
+                            {{ range $name, $taxonomy := .Site.Taxonomies.categories }}
+                                <li><a href="/categories/{{ $name | urlize }}">{{ $name | humanize }} ({{ $taxonomy.Count }})</a></li>
+                            {{end}}
+                        </ul>
+                    </div>
+                </div>
+                <!-- end widget  -->
+                <!-- widget  -->
+                <div class="widget">
+                    <h5 class="widget-title font-alt">Most Recent Posts</h5>
+                    <div class="thin-separator-line bg-dark-gray no-margin-lr"></div>
+                    <div class="widget-body">
+                        <ul class="widget-posts">
+                            {{ range first 4 (where .Site.Pages "Section" "blog") }}
+                                <li class="clearfix">
+                                    <a href="{{ .RelPermalink }}"><img src="{{ if .Params.img }} {{ .Params.img }} {{ else }} http://placehold.it/480x358 {{end}}" alt=""/></a>
+                                    <div class="widget-posts-details"><a href="{{ .RelPermalink }}">{{ .Title }}</a> {{if .Params.author}}{{ .Params.author }}{{end}} - {{if .PublishDate}} {{ .PublishDate.Format "02 January 2006"}} {{end}}</div>
+                                </li>
+                            {{ end }}
+                        </ul>
+                    </div>
+                </div>
+                <!-- end widget  -->
+                <!-- widget  -->
+                <div class="widget">
+                    <h5 class="widget-title font-alt">Tags Cloud</h5>
+                    <div class="thin-separator-line bg-dark-gray no-margin-lr"></div>
+                    <div class="widget-body tags">
+                        {{ range first 6 .Site.Taxonomies.tags.ByCount}}
+                            <a href="/tags/{{ .Name | urlize }}">{{ .Name }}</a>
+                        {{end}}
+                    </div>
+                </div>
+                <!-- end widget  -->
+                <!-- widget  -->
+                <div class="widget">
+                    <h5 class="widget-title font-alt">Text Widget</h5>
+                    <div class="thin-separator-line bg-dark-gray no-margin-lr"></div>
+                    <div class="widget-body">
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+                    </div>
+                </div>
+                <!-- end widget  -->
+                <!-- widget  -->
+                <div class="widget">
+                    <h5 class="widget-title font-alt">Archive</h5>
+                    <div class="thin-separator-line bg-dark-gray no-margin-lr"></div>
+                    <div class="widget-body">
+                        <ul class="category-list">
+                            {{ range $value := .Site.Pages.GroupByDate "January 2006" }}
+                                <li><a href="/">{{ .Key }}</a></li>
+                            {{ end }}
+                        </ul>
+                    </div>
+                </div>
+                <!-- end widget  -->
+            </div>
+            <!-- end sidebar  -->
+        </div>
+    </div>
+</section>
+<!-- end content section -->
+{{end}}

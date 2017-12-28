@@ -1,14 +1,10 @@
 baseURL = "http://example.org/"
-theme = "Osaron"
-contentdir = "content"
-layoutdir = "layouts"
-publishdir = ""
-canonifyurls = true
 languageCode = "en-us"
 title = "hughsambros."
-MetaDataFormat = "toml"
-[indexes]
-    category = "categories"
+theme = "osaron"
+[taxonomies]
     tag = "tags"
-[author]
-    name = "Nicholas Hugh Sam"
+    category = "categories"
+
+[permalinks]
+    blog = "/:section/:year/:month/:title/"
