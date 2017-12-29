@@ -9,4 +9,5 @@ disqusShortname = "hughsambros"
 
 [permalinks]
     blog = "/:section/:year/:month/:title/"
-    singles = "/:section/:slug"
+    about = "/:section/:slug"
+    contact = "/:section/:slug"
