@@ -1,0 +1,23 @@
+{{ define "main" }}
+    <!-- content section -->
+    <section id="contact-form" class="wow fadeIn">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 col-sm-6">
+                    <p class="text-med text-uppercase letter-spacing-1 black-text font-weight-600">Contact Us</p>
+                    <p class="text-med">Feel free to ask us questions about anything and everything.</p>
+                </div>
+                <div class="col-md-6 col-sm-6  col-md-offset-2">
+                    <form id="contactusform" action="javascript:void(0)" method="post">
+                        <div id="success" class="no-margin-lr"></div>
+                        <input name="name" type="text" placeholder="Your Name" />
+                        <input name="email" type="text" placeholder="Your Email"  />
+                        <textarea placeholder="Your Message" name="comment"></textarea>
+                        <button id="contact-us-button" type="submit" class="highlight-button-dark btn btn-small button xs-margin-bottom-five">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end content section -->
+{{ end }}

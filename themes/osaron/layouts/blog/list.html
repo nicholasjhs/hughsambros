@@ -1,0 +1,74 @@
+{{ define "main" }}
+    <!-- head section -->
+    <section class="page-title parallax3 parallax-fix page-title-large">
+        <div class="opacity-medium bg-black"></div>
+        <img class="parallax-background-img" src="http://placehold.it/1920x1100" alt="" />
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 col-sm-12 text-center animated fadeInUp">
+                    <div class="separator-line bg-yellow no-margin-top margin-four"></div>
+                    <!-- page title -->
+                    <h1 class="white-text">{{ .Title }}</h1>
+                    <!-- end page title -->
+                    <!-- page title tagline -->
+                    <span class="white-text">Lorem Ipsum is simply dummy text of the printing.</span>
+                    <!-- end title tagline -->
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end head section -->
+    <!-- content section -->
+    <section class="wow fadeIn">
+        <div class="container">
+            <div class="row">
+                <!-- content  -->
+                <div class="col-md-8 col-sm-8">
+                    {{ range .Pages }}
+                    <!-- post item -->
+                    <div class="blog-listing blog-listing-classic wow fadeIn">
+                        <!-- post image -->
+                        <div class="blog-image"><a href="blog-single-right-sidebar.html"><img src="{{ if .Params.img }} {{ .Params.img }} {{ else }} http://placehold.it/1200x800 {{end}}" alt=""/></a></div>
+                        <!-- end post image -->
+                        <div class="blog-details">
+                            <div class="blog-date">Posted by <a href="blog-masonry-3columns.html">{{ if .Params.author}} {{ .Params.author }} {{end}}</a> | {{ if .PublishDate }} {{ .PublishDate.Format "02 January 2006" }} {{end}}| <a href="blog-masonry-3columns.html">Design</a>, <a href="blog-masonry-3columns.html">Branding</a> </div>
+                            <div class="blog-title"><a href="blog-single-right-sidebar.html">{{ if .Title }} {{ .Title }} {{end}}</a></div>
+                            <div>{{ if .Params.description }} {{ .Params.description | upper }} {{end}}</div>
+                            <div class="separator-line bg-black no-margin-lr margin-four"></div>
+                            <div><h5 class="widget-title margin-one no-margin-top">Tags</h5>
+                                {{if .Params.tags}}
+                                    {{ range .Params.tags}}
+                                        <a href="{{ "/tags/" | relLangURL }}{{ . | urlize }}">{{ . | upper }}</a> ,
+                                    {{end}}
+                                {{end}}
+                            </div>
+                            <a class="highlight-button btn btn-small xs-no-margin-bottom" href="blog-single-right-sidebar.html">Read More</a>
+                        </div>
+                    </div>
+                    <!-- end post item -->
+                    {{ end }}
+                </div>
+                <!-- end content  -->
+                <!-- sidebar  -->
+                    {{ partial "blog-sidebar" . }}
+                <!-- end sidebar  -->
+            </div>
+            <div class="row">
+                <div class="col-md-12 col-sm-12 col-xs-12 wow fadeInUp">
+                    <!-- pagination -->
+                    <div class="pagination">
+                        <a href="#"><img src="images/arrow-pre-small.png" alt=""/></a>
+                        <a href="#">1</a>
+                        <a href="#">2</a>
+                        <a href="#" class="active">3</a>
+                        <a href="#">4</a>
+                        <a href="#">5</a>
+                        <a href="#"><img src="images/arrow-next-small.png" alt=""/></a>
+                    </div>
+                    <!-- end pagination -->
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end content section -->
+{{ end }}

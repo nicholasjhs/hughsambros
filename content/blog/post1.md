@@ -5,6 +5,7 @@ publishdate: 2017-12-27T14:31:03-05:00
 draft: true
 author: "Nicholas Hugh Sam"
 img: "/images/test-pic.jpeg"
+description: "Just a brief post about what exactly is a static website"
 slug: ""
 tags: ["test", "tags"]
 categories: ["MPC"]
