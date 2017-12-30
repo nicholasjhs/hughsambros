@@ -4,10 +4,12 @@ date: 2017-12-27T14:31:03-05:00
 publishdate: 2017-12-27T14:31:03-05:00
 draft: true
 author: "Nicholas Hugh Sam"
-img: "/images/test-pic.jpeg"
+comments: true
 description: "Just a brief post about what exactly is a static website"
+img: "/images/test-pic.jpeg"
 slug: ""
-tags: ["test", "tags"]
+shorttitle: "Short title of the post"
+tags: ["test", "something"]
 categories: ["MPC"]
 ---
 HEY GUYS !!! I'm finally DONE with school and am totally ready to start building the new website (yayyy, I only have like 4 days left to build it), but before I do, I just want to write a brief post about what exactly is a static website.

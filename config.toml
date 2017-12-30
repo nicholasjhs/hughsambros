@@ -3,6 +3,7 @@ languageCode = "en-us"
 title = "hughsambros."
 theme = "osaron"
 disqusShortname = "hughsambros"
+paginate = 5
 [taxonomies]
     tag = "tags"
     category = "categories"

@@ -6,6 +6,7 @@ draft: true
 author: "Nicholas Hugh Sam"
 img: ""
 slug: ""
+comments: false
 tags: ["test"]
 categories: ["MPC"]
 ---

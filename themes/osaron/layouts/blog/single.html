@@ -5,15 +5,15 @@
         <div class="row">
             <div class="col-md-8 col-sm-12 wow fadeInUp" data-wow-duration="300ms">
                 <!-- page title -->
-                <h1 class="black-text">Blog Single</h1>
+                <h1 class="black-text">{{ if .Params.shorttitle }} {{ .Params.shorttitle }} {{ else }} Short Title {{ end }}</h1>
                 <!-- end page title -->
             </div>
             <div class="col-md-4 col-sm-12 breadcrumb text-uppercase wow fadeInUp xs-display-none" data-wow-duration="600ms">
                 <!-- breadcrumb -->
                 <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Blog</a></li>
-                    <li>Blog Single</li>
+                    <li><a href="{{ .Site.BaseURL }}">Home</a></li>
+                    <li><a href="{{ .Site.BaseURL }}blog">Blog</a></li>
+                    <li>Post</li>
                 </ul>
                 <!-- end breadcrumb -->
             </div>
@@ -57,10 +57,12 @@
                 </div>
                 <!-- end social icon -->
                 <!-- post comment -->
+                {{ if .Params.comments }}
                 <div class="blog-comment-main xs-no-padding-top">
                     <h5 class="widget-title">Blog Comments</h5>
-                    {{ partial "comment-section" . }}
+                    {{ template "_internal/disqus.html" . }}
                 </div>
+                {{ end }}
                 <!-- end post comment -->
             </div>
             <!-- end content  -->

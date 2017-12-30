@@ -24,14 +24,15 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-5">
-                    <span class="text-large display-block">Capacity to see beauty</span>
-                    <span class="title-large text-uppercase letter-spacing-1 font-weight-600 black-text">Our Mission is to Satisfy</span>
+                    <span class="text-large display-block">HughSamBros Presents</span>
+                    <span class="title-large text-uppercase letter-spacing-1 font-weight-600 black-text">The Kaizen Challenge</span>
                     <div class="separator-line-thick bg-fast-pink no-margin-lr"></div>
                     <p class="no-margin-bottom">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
                     <a class="highlight-button-black-border btn btn-small no-margin-bottom inner-link sm-margin-bottom-ten" href="#">Read More</a>
                 </div>
-                <div class="col-md-3 col-sm-6 text-center col-md-offset-1 xs-margin-bottom-ten"><img src="http://placehold.it/500x600" class="xs-img-full" alt=""/></div>
-                <div class="col-md-3 col-sm-6 text-center "><img src="http://placehold.it/500x600" class="xs-img-full" alt=""/></div>
+                {{ range first 2 where (where .Site.RegularPages) ".Params.categories" "in" "mpc"}}
+                    <div class="col-md-3 col-sm-6 text-center col-md-offset-1 xs-margin-bottom-ten"><img src="{{ if .Params.img }} {{ .Params.img }} {{ else }} http://placehold.it/500x600{{ end }}" class="xs-img-full" alt=""/></div>
+                {{end}}
             </div>
         </div>
     </section>
