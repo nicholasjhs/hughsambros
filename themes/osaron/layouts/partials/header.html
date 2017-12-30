@@ -16,26 +16,22 @@
                     <ul id="accordion" class="nav navbar-nav navbar-right panel-group no-margin-right">
                         <!-- menu item -->
                         <li class="dropdown panel menu-first-level">
-                            <a href="#collapse1" data-redirect-url="#" class="dropdown-toggle collapsed" data-toggle="collapse" data-parent="#accordion" data-hover="dropdown">Home</a>
-                            <a href="#collapse1" class="dropdown-toggle collapsed megamenu-right-icon" data-toggle="collapse"><i class="fa fa-angle-down megamenu-mobile-icon"></i></a>
-                        </li>
-                        <!-- end menu item -->
-                        <!-- menu item -->
-                        <li class="dropdown panel simple-dropdown simple-dropdown-menu menu-first-level">
-                            <a href="#collapse6" data-redirect-url="#" class="dropdown-toggle collapsed" data-toggle="collapse" data-parent="#accordion" data-hover="dropdown">Blog</a>
-                            <a href="#collapse6" class="dropdown-toggle collapsed megamenu-right-icon" data-toggle="collapse"><i class="fa fa-angle-down megamenu-mobile-icon"></i></a>
+                            <a href="{{ .Site.BaseURL }}">Home</a>
                         </li>
                         <!-- end menu item -->
                         <!-- menu item -->
                         <li class="dropdown panel menu-first-level">
-                            <a href="#collapse2" data-redirect-url="#" class="dropdown-toggle collapsed" data-toggle="collapse" data-parent="#accordion" data-hover="dropdown">About Us</a>
-                            <a href="#collapse2" class="dropdown-toggle collapsed megamenu-right-icon" data-toggle="collapse"><i class="fa fa-angle-down megamenu-mobile-icon"></i></a>
+                            <a href="{{ .Site.BaseURL}}blog">Blog</a>
                         </li>
                         <!-- end menu item -->
                         <!-- menu item -->
                         <li class="dropdown panel menu-first-level">
-                            <a href="#collapse5" data-redirect-url="#" class="dropdown-toggle collapsed" data-toggle="collapse" data-parent="#accordion" data-hover="dropdown">Contact</a>
-                            <a href="#collapse5" class="dropdown-toggle collapsed megamenu-right-icon" data-toggle="collapse"><i class="fa fa-angle-down megamenu-mobile-icon"></i></a>
+                            <a href="{{ .Site.BaseURL}}about">About Us</a>
+                        </li>
+                        <!-- end menu item -->
+                        <!-- menu item -->
+                        <li class="dropdown panel menu-first-level">
+                            <a href="{{ .Site.BaseURL}}contact">Contact</a>
                         </li>
                         <!-- end menu item -->
                     </ul>
