@@ -6,7 +6,7 @@
     <div class="blog-details">
         <div class="blog-date">
             Posted by
-            <a href="blog-masonry-3columns.html">{{ if .Params.author}} {{ .Params.author }} {{end}}</a> | {{ if .PublishDate }} {{ .PublishDate.Format "02 January 2006" }} {{end}}|
+            {{ if .Params.author}} {{ .Params.author }} {{end}} | {{ if .PublishDate }} {{ .PublishDate.Format "02 January 2006" }} {{end}}|
             {{if .Params.categories}}
                 {{ range .Params.categories}}
                     <a href="{{ "/categories/" | relLangURL }}{{ . | urlize }}">{{ . | upper }}</a> ,
