@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Singles on hughsambros.</title>
+    <link>https://hughsambros.netlify.com/singles/</link>
+    <description>Recent content in Singles on hughsambros.</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 29 Dec 2017 13:53:29 -0500</lastBuildDate>
+    
+	<atom:link href="https://hughsambros.netlify.com/singles/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>About</title>
+      <link>https://hughsambros.netlify.com/about/</link>
+      <pubDate>Fri, 29 Dec 2017 13:53:29 -0500</pubDate>
+      
+      <guid>https://hughsambros.netlify.com/about/</guid>
+      <description>It&amp;rsquo;s always been a dream of ours to start a company together, and HughSamBros is the first step towards that goal. One commonality that we both (sadly) share, is that we always want to try and do so many things, but we never end up doing it. Publishing content online allows us to share our passion of trying new things and keeps us accountable along the way. The purpose of this blog is mainly to document both of our journeys of self-improvement and to hopefully inspire a few along the way.</description>
+    </item>
+    
+    <item>
+      <title>Contact Us</title>
+      <link>https://hughsambros.netlify.com/contact/</link>
+      <pubDate>Fri, 29 Dec 2017 13:42:36 -0500</pubDate>
+      
+      <guid>https://hughsambros.netlify.com/contact/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
