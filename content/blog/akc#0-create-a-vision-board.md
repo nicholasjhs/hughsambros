@@ -7,7 +7,7 @@ author: "Alexander Hugh Sam"
 comments: true
 description: "My first challenge is to create my own vision board."
 img: "/images/hsb/akc0-vision.jpg"
-slug : ""
+slug : "akc0-create-a-vision-board"
 shorttitle: "Intro to AKC#0"
 tags: []
 categories: ["Alex", "AKC"]

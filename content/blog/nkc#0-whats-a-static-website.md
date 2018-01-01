@@ -1,5 +1,5 @@
 ---
-title: "Nkc#0 Whats a Static Website"
+title: "NKC#0: Whats a Static Website"
 date: 2017-12-27T12:38:53-05:00
 publishdate: 2017-12-27T12:38:53-05:00
 draft: true
@@ -7,7 +7,7 @@ author: "Nicholas Hugh Sam"
 comments: true
 description: "a brief post about what exactly is a static website"
 img: "/images/hsb/nkc0-website1.jpeg"
-slug : ""
+slug : "nkc0-whats-a-static-website"
 shorttitle: "Static Website Explained (ish)"
 tags: []
 categories: ["Nich", "NKC"]

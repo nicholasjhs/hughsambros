@@ -7,7 +7,7 @@ author: "Alexander Hugh Sam"
 comments: true
 description: "Alright, so it's December 30th and I still haven't started my vision board. "
 img: "/images/hsb/akc0-vision1.jpg"
-slug : ""
+slug : "akc0-yup-im-fucked"
 shorttitle: "I'm Fucked"
 tags: []
 categories: ["Alex", "AKC"]
@@ -16,142 +16,158 @@ Alright, so it's December 29th and I still haven't started my vision board. What
 
 Since I am in a time sensitive situation and don't have the luxury to mindlessly browse the internet/magazines for inspiration, I will need to develop a plan on what I want to put on my vision board. Being an inherently logical person, I will start by approaching the problem (developing a plan for my vision board) in a logical way, and go from there.
 
-- Insert Picture -
+-Insert Picture-
 
 You don't clearly see it in the picture above, but the cork board is 18"x24", which means I can easily divide the board either into 6 or 9 squares. Logical me is happy since this means that I just need to find 6 or 9 topics/areas that are important to me and use that as a starting point for my vision board.
 
 Here are some areas/topics that I initially thought about:
 
-* Short-Term goals (ex: 2018-2019)
 
-* Long-Term goals (ex: before I die)
++ Short-Term goals (ex: 2018-2019)
 
-* Life values
++ Long-Term goals (ex: before I die)
 
-* Career
++ Life values
 
-* What I want to do
++ Career
 
-* Relationships
++ What I want to do
 
-* Finances
++ Relationships
 
-* Home
++ Finances
 
-* Personal Growth
++ Home
 
-* Health
++ Personal Growth
 
-* Travel
++ Health
 
-I would be able to insert short-term and long-term goals for every area, which means I would have 8 topics left. Not exactly ideal, since I wanted either 6 or 9, but we'll start with this and if I don't like it, then I'll either merge topics together or add a new one. Now what I would want to do is to separate each topic into short-term and long-term goals.
++ Travel
+
+I would be able to insert short+term and long+term goals for every area, which means I would have 8 topics left. Not exactly ideal, since I wanted either 6 or 9, but we'll start with this and if I don't like it, then I'll either merge topics together or add a new one. Now what I would want to do is to separate each topic into short+term and long+term goals.
 
 The updated version of the list above now looks like this:
 
-* Life values
 
-    * Authenticity
++ Life values
 
-    * Kaizen
+    + Authenticity
 
-    * Humble
+    + Kaizen
 
-* Career
+    + Humble
 
-    * Short-Term
++ Career
 
-        * Have a thousand views on Hughsambros blog
 
-        * Have sponsors for HughSamBros challenges
+    + Short-Term
 
-        * Learn more about marketing and sales
 
-        * Become a better consultant
+        + Have a thousand views on hughsambros blog
 
-    * Long-Term
+        + Have sponsors for HughSamBros challenges
 
-        * Open a coffee/tea shop
+        + Learn more about marketing and sales
 
-        * Create a company with NHS
+        + Become a better consultant
 
-        * Good work environment, with lots of light and surrounded by motivated people
+    + Long-Term
 
-* Relationships
 
-    * Meet new, interesting and motivated people
+        + Open a coffee/tea shop
 
-    * Maintain good relationships with family, close friends, friends, colleagues
+        + Create a company with NHS
 
-    * (Re)find love??
+        + Good work environment, with lots of light and surrounded by motivated people
 
-* Finances
++ Relationships
 
-    * Short-Term
 
-        * Buy an apartment with MGM
+    + Meet new, interesting and motivated people
 
-        * Spend less money on useless things
+    + Maintain good relationships with family, close friends, friends, colleagues
 
-        * Save more money
+    + (Re)find love??
 
-        * Look into Cryptocurrency
++ Finances
 
-    * Long-Term
 
-        * Investments are good
+    + Short-Term
 
-        * Have multiple revenue streams
 
-* Personal Growth
+        + Buy an apartment with MGM
 
-    * Short-Term
+        + Spend less money on useless things
 
-        * Meditate 20 min a day
+        + Save more money
 
-        * Complete all 12.5 Hughsambros challenges
+        + Look into Cryptocurrency
 
-        * Find my passion
+    + Long-Term
 
-        * Be a better writer
 
-        * Be more creative
+        + Investments are good
 
-        * Travel to South America
+        + Have multiple revenue streams
 
-        * Read more books
++ Personal Growth
 
-        * Take more notes
 
-        * Discover new artists
+    + Short-Term
 
-    * Long-Term
 
-        * Travel more
+        + Meditate 20 min a day
 
-        * Have Fun
+        + Complete all 12.5 Hughsambros challenges
 
-* Health
+        + Find my passion
 
-    * Short-Term
+        + Be a better writer
 
-        * Play a lot of hockey
+        + Be more creative
 
-        * Go back to the gym
+        + Travel to South America
 
-        * Rehabilitate injured leg
+        + Read more books
 
-    * Long-Term
+        + Take more notes
 
-        * No major injuries
+        + Discover new artists
 
-* People I Look up to
+    + Long-Term
 
-    * Chance the Rapper
 
-    * PK Subban
+        + Travel more
 
-    * Elon Musk
+        + Have Fun
 
-I ended up removing the home category, and replaced it with People I look up to, instead. I also removed short-term/long-term for a few areas as well, since it didn't make sense to have them there. Now that I listed everything I wanted to put on my vision board, I realize that not all categories are equal, so I won't make sense to separate them equally. I have 2 more days to go, so the next step is to find a bunch of pictures that I like that represent everything that I wrote-down.
++ Health
 
-- Alex.
+
+    + Short-Term
+
+
+        + Play a lot of hockey
+
+        + Go back to the gym
+
+        + Rehabilitate injured leg
+
+    + Long-Term
+
+
+        + No major injuries
+
++ People I Look up to
+
+
+    + Chance the Rapper
+
+    + PK Subban
+
+    + Elon Musk
+
+I ended up removing the home category, and replaced it with People I look up to, instead. I also removed short-term/long+term for a few areas as well, since it didn't make sense to have them there. Now that I listed everything I wanted to put on my vision board, I realize that not all categories are equal, so I won't make sense to separate them equally. I have 2 more days to go, so the next step is to find a bunch of pictures that I like that represent everything that I wrote-down.
+
+-Alex.

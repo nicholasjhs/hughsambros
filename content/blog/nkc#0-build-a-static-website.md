@@ -7,7 +7,7 @@ author: "Nicholas Hugh Sam"
 comments: true
 description: "My first challenge is to build a static website that will replace the current website in 2018."
 img: "/images/hsb/nkc0-website.jpg"
-slug : ""
+slug : "nkc0-build-a-static-website"
 shorttitle: "Intro to NKC#0"
 tags: []
 categories: ["Nich", "NKC"]
