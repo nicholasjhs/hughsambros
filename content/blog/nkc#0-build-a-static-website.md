@@ -2,7 +2,7 @@
 title: "NKC#0: Build A Static Website"
 date: 2017-12-18T12:23:36-05:00
 publishdate: 2017-12-18T12:23:36-05:00
-draft: true
+draft: false
 author: "Nicholas Hugh Sam"
 comments: true
 description: "My first challenge is to build a static website that will replace the current website in 2018."

@@ -2,7 +2,7 @@
 title: "KC: Introducing the Kaizen Challenge"
 date: 2017-12-17T11:58:43-05:00
 publishdate: 2017-12-17T11:58:43-05:00
-draft: true
+draft: false
 author: "Alexander Hugh Sam"
 comments: true
 description: "THE WHOLE IDEA OF STARTING HUGHSAMBROS.COM CAME AFTER I READ THROUGH MAX DEUTSCH'S PROJECT HE CALLED MONTH TO MASTER (M2M)."

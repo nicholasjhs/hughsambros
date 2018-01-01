@@ -2,7 +2,7 @@
 title: "NKC#0: Whats a Static Website"
 date: 2017-12-27T12:38:53-05:00
 publishdate: 2017-12-27T12:38:53-05:00
-draft: true
+draft: false
 author: "Nicholas Hugh Sam"
 comments: true
 description: "a brief post about what exactly is a static website"

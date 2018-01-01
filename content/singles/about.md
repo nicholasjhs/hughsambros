@@ -1,7 +1,7 @@
 ---
 title: "About"
 date: 2017-12-29T13:53:29-05:00
-draft: true
+draft: false
 layout: "about"
 alexdesc: ""
 nicdesc: ""

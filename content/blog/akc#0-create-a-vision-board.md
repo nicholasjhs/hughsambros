@@ -2,7 +2,7 @@
 title: "AKC#0: Create a Vision Board"
 date: 2017-12-21T12:34:46-05:00
 publishdate: 2017-12-21T12:34:46-05:00
-draft: true
+draft: false
 author: "Alexander Hugh Sam"
 comments: true
 description: "My first challenge is to create my own vision board."

@@ -2,7 +2,7 @@
 title: "AKC#0: Yup... I'm Fucked"
 date: 2017-12-30T12:42:32-05:00
 publishdate: 2017-12-30T12:42:32-05:00
-draft: true
+draft: false
 author: "Alexander Hugh Sam"
 comments: true
 description: "Alright, so it's December 30th and I still haven't started my vision board. "
