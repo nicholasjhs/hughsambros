@@ -39,6 +39,8 @@
     
     <link rel="stylesheet" href="/css/responsive.css" />
     
+    <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+    
     
 </head>
 
@@ -201,6 +203,20 @@
             <a data-slide="prev" href="#myCarousel3" class="left carousel-control"> <img alt="" src="images/arrow-pre-white-bg.png"> </a> <a data-slide="next" href="#myCarousel3" class="right carousel-control"> <img alt="" src="images/arrow-next-white-bg.png"> </a>
         </div>
     </section>
+    
+    
+    <script>
+  if (window.netlifyIdentity) {
+    window.netlifyIdentity.on("init", user => {
+      if (!user) {
+        window.netlifyIdentity.on("login", () => {
+          document.location.href = "/admin/";
+        });
+      }
+    });
+  }
+</script>
+
     
 
 			
