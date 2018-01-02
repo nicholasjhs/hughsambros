@@ -1,6 +1,6 @@
 backend:
   name: git-gateway
-  repo: nicholasjhs/hughsambros # Path to your Github repository
+  #repo: nicholasjhs/hughsambros # Path to your Github repository
   branch: development # Branch to update (master by default)
 
 media_folder: "themes/osaron/static/images/hsb" # Folder where user uploaded files should go
