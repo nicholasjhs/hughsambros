@@ -1,6 +1,6 @@
 backend:
   name: git-gateway
-  #repo: nicholasjhs/hughsambros # Path to your Github repository
+  repo: nicholasjhs/hughsambros/ # Path to your Github repository
   branch: development # Branch to update (master by default)
 
 media_folder: "themes/osaron/static/images/hsb" # Folder where user uploaded files should go
@@ -9,7 +9,7 @@ publish_mode: editorial_workflow
 
 collections:
   - name: "blog" # Used in routes, e.g., /admin/collections/blog
-    label: "New Post" # Used in the UI
+    label: "Post" # Used in the UI
     folder: "content/blog" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     slug: "{{filename}}" # Filename template, e.g., YYYY-MM-DD-title.md
