@@ -18,11 +18,11 @@ collections:
       - {label: "Publish Date", name: "publishdate", widget: "datetime", format: "YYYY-MM-DD hh:mma"}
       - {label: "Draft", name: "draft", widget: "boolean", default: false}
       - {label: "Author", name: "author", widget: "select", options: ["Nicholas Hugh Sam", "Alexander Hugh Sam", "Hugh Sam Bros"]}
-      - {label: "Description", name: "description", widget: "text"}
-      - {label: "Featured Image", name: "img", widget: "image"}
+      - {label: "Description", name: "description", widget: "text", required: false}
+      - {label: "Featured Image", name: "img", widget: "image", required: false}
       - {label: "Link", name: "slug", widget: "string", default: "this-is-an-example", pattern: ["^[a-z0-9]+(?:-[a-z0-9/]+)*$", "Use this format: nkc0-this-is-an-example"]}
       - {label: "Filename", name:"filename", widget: "string", default: "nkc#0-this-is-an-example"}
-      - {label: "Short Title", name: "shorttitle", widget: "string"}
-      - {label: "Categories", name: "categories", widget: "list"}
-      - {label: "Tag", name: "tags", widget: "list"}
+      - {label: "Short Title", name: "shorttitle", widget: "string", required: false}
+      - {label: "Categories", name: "categories", widget: "list", required: false}
+      - {label: "Tag", name: "tags", widget: "list", required: false}
       - {label: "Body", name: "body", widget: "markdown"}

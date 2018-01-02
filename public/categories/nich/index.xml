@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Nich on hughsambros.</title>
+    <link>https://hughsambros.netlify.com/categories/nich/</link>
+    <description>Recent content in Nich on hughsambros.</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 27 Dec 2017 12:38:53 -0500</lastBuildDate>
+    
+	<atom:link href="https://hughsambros.netlify.com/categories/nich/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>NKC#0: Whats a Static Website</title>
+      <link>https://hughsambros.netlify.com/blog/2017/12/nkc0-whats-a-static-website/</link>
+      <pubDate>Wed, 27 Dec 2017 12:38:53 -0500</pubDate>
+      
+      <guid>https://hughsambros.netlify.com/blog/2017/12/nkc0-whats-a-static-website/</guid>
+      <description>HEY GUYS !!! I&amp;rsquo;m finally DONE with school and am totally ready to start building the new website (yayyy, I only have like 4 days left to build it), but before I do, I just want to write a brief post about what exactly is a static website.
+If you take all the websites that exist, you can separate them into 2 broad categories. The first one is Dynamic Websites and the second one is Static Websites.</description>
+    </item>
+    
+    <item>
+      <title>NKC#0: Build A Static Website</title>
+      <link>https://hughsambros.netlify.com/blog/2017/12/nkc0-build-a-static-website/</link>
+      <pubDate>Mon, 18 Dec 2017 12:23:36 -0500</pubDate>
+      
+      <guid>https://hughsambros.netlify.com/blog/2017/12/nkc0-build-a-static-website/</guid>
+      <description>My first challenge is to build a static website that will replace the current website in 2018.
+Background:
+I&amp;rsquo;ve always had an interest in building a static website, but I never found any good motivation to do it so when HughSamBros came up, I jumped at the gun and told Alex that I&amp;rsquo;ll take care of the website. The initial plan was to start right off the bat with the static website and document everything on it; however, I wanted the site to be my first challenge.</description>
+    </item>
+    
+  </channel>
+</rss>
