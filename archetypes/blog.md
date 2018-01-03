@@ -6,7 +6,7 @@ draft: true
 author: "Nicholas Hugh Sam"
 comments: true
 description: ""
-img: "/images/hsb/file-name.ext"
+img: ""
 slug : ""
 shorttitle: "Short title of the post"
 tags: []

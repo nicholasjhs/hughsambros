@@ -158,6 +158,7 @@ The updated version of the list above now looks like this:
 
 
         + No major injuries
+        
 
 + People I Look up to
 
