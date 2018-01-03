@@ -3,7 +3,7 @@
     <section id="slider" class="no-padding">
         <div id="owl-demo" class="owl-carousel owl-theme light-pagination square-pagination dark-pagination-without-next-prev-arrow main-slider">
             <!-- slider item -->
-            <div class="item owl-bg-img" style="background-image:url('/images/hsb/homepage/cover2.jpg');">
+            <div class="item owl-bg-img" style="background-image:url('{{ if .Params.background }} /assets/images/hsb/full/{{ .Params.background }} {{ else }} http://placehold.it/1920x1100 {{ end }}');">
                 <div class="opacity-full"></div>
                 <div class="container full-screen position-relative">
                     <div class="slider-typography text-center">
@@ -20,6 +20,7 @@
         </div>
     </section>
     <!-- end slider -->
+    <!-- home-spa -->
     <section class="no-padding-bottom">
         <div class="container">
             <div class="row">
@@ -30,12 +31,14 @@
                     <p class="no-margin-bottom">{{ .Params.kaizendesc | markdownify}}</p>
                     <a class="highlight-button-black-border btn btn-small no-margin-bottom inner-link sm-margin-bottom-ten" href="{{ .Site.BaseURL }}blog/2017/12/kc-introducing-the-kaizen-challenge/">Read More</a>
                 </div>
-                <div class="col-md-3 col-sm-6 text-center col-md-offset-1 xs-margin-bottom-ten"><img src="/images/hsb/homepage/kaizen1.jpg" class="xs-img-full" alt=""/></div>
-                <div class="col-md-3 col-sm-6 text-center "><img src="/images/hsb/homepage/kaizen3.jpg" class="xs-img-full" alt=""/></div>
+                <div class="col-md-3 col-sm-6 text-center col-md-offset-1 xs-margin-bottom-ten"><img src="{{ if .Params.firstkaizen }} /assets/images/hsb/quart/{{ .Params.firstkaizen }} {{ else }} http://placehold.it/500x600 {{ end }}" class="xs-img-full" alt=""/></div>
+                <div class="col-md-3 col-sm-6 text-center "><img src="{{ if .Params.secondkaizen }} /assets/images/hsb/quart/{{ .Params.secondkaizen }} {{ else }} http://placehold.it/500x600 {{ end }}" class="xs-img-full" alt=""/></div>
             </div>
         </div>
     </section>
+    <!-- end home-spa -->
     <!-- first mpc section -->
+    <!-- home one page architecture -->
     <section id="approach" class="approach parallax1 parallax-fix parallax-section-main no-padding-bottom">
         <!-- <img class="parallax-background-img" src="http://placehold.it/1920x1200" alt="" /> -->
         <div class="carousel slide carousel-slide" id="myCarousel2">
@@ -49,27 +52,27 @@
                 </div>
                 <div class="carousel-inner margin-seven no-margin-bottom">
                     <div class="item active">
-                        <div class="col-md-3 col-sm-6 text-center xs-margin-bottom-ten"><a href="#"><img alt="" src="/images/hsb/akc1-hockey.jpg"></a><h5 class="gray-text margin-ten no-margin-bottom xs-margin-top-five">Hockey Challenge</h5></div>
-                        <div class="col-md-3 col-sm-6 text-center xs-margin-bottom-ten"><a href="#"><img alt="" src="/images/hsb/homepage/lock.jpg"></a><h5 class="gray-text margin-ten no-margin-bottom xs-margin-top-five">Cooking Pho</h5></div>
-                        <div class="col-md-3 col-sm-6 text-center xs-margin-bottom-ten"><a href="#"><img alt="" src="/images/hsb/homepage/lock.jpg"></a><h5 class="gray-text margin-ten no-margin-bottom xs-margin-top-five">Nail a Backflip</h5></div>
-                        <div class="col-md-3 col-sm-6 text-center"><a href="#"><img alt="" src="/images/hsb/homepage/lock.jpg"></a><h5 class="gray-text margin-ten no-margin-bottom xs-margin-top-five">New Language Challenge</h5></div>
+                        <div class="col-md-3 col-sm-6 text-center xs-margin-bottom-ten"><a href="#"><img alt="" src="{{ if .Params.akcimg1 }} /assets/images/hsb/thumb/{{ .Params.akcimg1 }} {{ else }} http://placehold.it/265x290 {{ end }}"></a><h5 class="gray-text margin-ten no-margin-bottom xs-margin-top-five">Hockey Challenge</h5></div>
+                        <div class="col-md-3 col-sm-6 text-center xs-margin-bottom-ten"><a href="#"><img alt="" src="{{ if .Params.lockimg }} /assets/images/hsb/thumb/{{ .Params.lockimg }} {{ else }} http://placehold.it/265x290 {{ end }}"></a><h5 class="gray-text margin-ten no-margin-bottom xs-margin-top-five">Cooking Pho</h5></div>
+                        <div class="col-md-3 col-sm-6 text-center xs-margin-bottom-ten"><a href="#"><img alt="" src="{{ if .Params.lockimg }} /assets/images/hsb/thumb/{{ .Params.lockimg }} {{ else }} http://placehold.it/265x290 {{ end }}"></a><h5 class="gray-text margin-ten no-margin-bottom xs-margin-top-five">Nail a Backflip</h5></div>
+                        <div class="col-md-3 col-sm-6 text-center"><a href="#"><img alt="" src="{{ if .Params.lockimg }} /assets/images/hsb/thumb/{{ .Params.lockimg }} {{ else }} http://placehold.it/265x290 {{ end }}"></a><h5 class="gray-text margin-ten no-margin-bottom xs-margin-top-five">New Language Challenge</h5></div>
                     </div>
                     <div class="item">
-                        <div class="col-md-3 col-sm-6 text-center xs-margin-bottom-ten"><a href="#"><img alt="" src="/images/hsb/homepage/lock.jpg"></a><h5 class="gray-text margin-ten no-margin-bottom xs-margin-top-five">Photography Series</h5></div>
-                        <div class="col-md-3 col-sm-6 text-center xs-margin-bottom-ten"><a href="#"><img alt="" src="/images/hsb/homepage/lock.jpg"></a><h5 class="gray-text margin-ten no-margin-bottom xs-margin-top-five">40 Straight Pull-Ups</h5></div>
-                        <div class="col-md-3 col-sm-6 text-center xs-margin-bottom-ten"><a href="#"><img alt="" src="/images/hsb/homepage/lock.jpg"></a><h5 class="gray-text margin-ten no-margin-bottom xs-margin-top-five">Swimming Challenge</h5></div>
-                        <div class="col-md-3 col-sm-6 text-center"><a href="#"><img alt="" src="/images/hsb/homepage/lock.jpg"></a><h5 class="gray-text margin-ten no-margin-bottom xs-margin-top-five">Bouldering Challenge</h5></div>
+                        <div class="col-md-3 col-sm-6 text-center xs-margin-bottom-ten"><a href="#"><img alt="" src="{{ if .Params.lockimg }} /assets/images/hsb/thumb/{{ .Params.lockimg }} {{ else }} http://placehold.it/265x290 {{ end }}"></a><h5 class="gray-text margin-ten no-margin-bottom xs-margin-top-five">Photography Series</h5></div>
+                        <div class="col-md-3 col-sm-6 text-center xs-margin-bottom-ten"><a href="#"><img alt="" src="{{ if .Params.lockimg }} /assets/images/hsb/thumb/{{ .Params.lockimg }} {{ else }} http://placehold.it/265x290 {{ end }}"></a><h5 class="gray-text margin-ten no-margin-bottom xs-margin-top-five">40 Straight Pull-Ups</h5></div>
+                        <div class="col-md-3 col-sm-6 text-center xs-margin-bottom-ten"><a href="#"><img alt="" src="{{ if .Params.lockimg }} /assets/images/hsb/thumb/{{ .Params.lockimg }} {{ else }} http://placehold.it/265x290 {{ end }}"></a><h5 class="gray-text margin-ten no-margin-bottom xs-margin-top-five">Swimming Challenge</h5></div>
+                        <div class="col-md-3 col-sm-6 text-center"><a href="#"><img alt="" src="{{ if .Params.lockimg }} /assets/images/hsb/thumb/{{ .Params.lockimg }} {{ else }} http://placehold.it/265x290 {{ end }}"></a><h5 class="gray-text margin-ten no-margin-bottom xs-margin-top-five">Bouldering Challenge</h5></div>
                     </div>
                     <div class="item">
-                        <div class="col-md-3 col-sm-6 text-center xs-margin-bottom-ten"><a href="#"><img alt="" src="/images/hsb/homepage/lock.jpg"></a><h5 class="gray-text margin-ten no-margin-bottom xs-margin-top-five">HughSamBros Hoodie</h5></div>
-                        <div class="col-md-3 col-sm-6 text-center xs-margin-bottom-ten"><a href="#"><img alt="" src="/images/hsb/homepage/lock.jpg"></a><h5 class="gray-text margin-ten no-margin-bottom xs-margin-top-five">Create a Chatbot</h5></div>
-                        <div class="col-md-3 col-sm-6 text-center xs-margin-bottom-ten"><a href="#"><img alt="" src="/images/hsb/homepage/lock.jpg"></a><h5 class="gray-text margin-ten no-margin-bottom xs-margin-top-five">Rap Freestyle</h5></div>
-                        <div class="col-md-3 col-sm-6 text-center"><a href="#"><img alt="" src="/images/hsb/homepage/lock.jpg"></a><h5 class="gray-text margin-ten no-margin-bottom xs-margin-top-five">Rubik's Cube Challenge</h5></div>
+                        <div class="col-md-3 col-sm-6 text-center xs-margin-bottom-ten"><a href="#"><img alt="" src="{{ if .Params.lockimg }} /assets/images/hsb/thumb/{{ .Params.lockimg }} {{ else }} http://placehold.it/265x290 {{ end }}"></a><h5 class="gray-text margin-ten no-margin-bottom xs-margin-top-five">HughSamBros Hoodie</h5></div>
+                        <div class="col-md-3 col-sm-6 text-center xs-margin-bottom-ten"><a href="#"><img alt="" src="{{ if .Params.lockimg }} /assets/images/hsb/thumb/{{ .Params.lockimg }} {{ else }} http://placehold.it/265x290 {{ end }}"></a><h5 class="gray-text margin-ten no-margin-bottom xs-margin-top-five">Create a Chatbot</h5></div>
+                        <div class="col-md-3 col-sm-6 text-center xs-margin-bottom-ten"><a href="#"><img alt="" src="{{ if .Params.lockimg }} /assets/images/hsb/thumb/{{ .Params.lockimg }} {{ else }} http://placehold.it/265x290 {{ end }}"></a><h5 class="gray-text margin-ten no-margin-bottom xs-margin-top-five">Rap Freestyle</h5></div>
+                        <div class="col-md-3 col-sm-6 text-center"><a href="#"><img alt="" src="{{ if .Params.lockimg }} /assets/images/hsb/thumb/{{ .Params.lockimg }} {{ else }} http://placehold.it/265x290 {{ end }}"></a><h5 class="gray-text margin-ten no-margin-bottom xs-margin-top-five">Rubik's Cube Challenge</h5></div>
                     </div>
                 </div>
             </div>
             <!-- slider controls -->
-            <a data-slide="prev" href="#myCarousel2" class="left carousel-control"> <img alt="" src="images/arrow-pre-white-bg.png"> </a> <a data-slide="next" href="#myCarousel2" class="right carousel-control"> <img alt="" src="images/arrow-next-white-bg.png"> </a>
+            <a data-slide="prev" href="#myCarousel2" class="left carousel-control"> <img alt="" src="/assets/images/arrow-pre-white-bg.png"> </a> <a data-slide="next" href="#myCarousel2" class="right carousel-control"> <img alt="" src="/assets/images/arrow-next-white-bg.png"> </a>
         </div>
     </section>
     <!-- end first mpc section -->
@@ -87,27 +90,27 @@
                 </div>
                 <div class="carousel-inner margin-seven no-margin-bottom">
                     <div class="item active">
-                        <div class="col-md-3 col-sm-6 text-center xs-margin-bottom-ten"><a href="#"><img alt="" src="/images/hsb/nkc1-cooking.jpg"></a><h5 class="gray-text margin-ten no-margin-bottom xs-margin-top-five">Cooking Challenge</h5></div>
-                        <div class="col-md-3 col-sm-6 text-center xs-margin-bottom-ten"><a href="#"><img alt="" src="/images/hsb/homepage/lock.jpg"></a><h5 class="gray-text margin-ten no-margin-bottom xs-margin-top-five">Make an App</h5></div>
-                        <div class="col-md-3 col-sm-6 text-center xs-margin-bottom-ten"><a href="#"><img alt="" src="/images/hsb/homepage/lock.jpg"></a><h5 class="gray-text margin-ten no-margin-bottom xs-margin-top-five">Nail a Backflip</h5></div>
-                        <div class="col-md-3 col-sm-6 text-center"><a href="#"><img alt="" src="/images/hsb/homepage/lock.jpg"></a><h5 class="gray-text margin-ten no-margin-bottom xs-margin-top-five">New Language Challenge</h5></div>
+                        <div class="col-md-3 col-sm-6 text-center xs-margin-bottom-ten"><a href="#"><img alt="" src="{{ if .Params.nkcimg1 }} /assets/images/hsb/thumb/{{ .Params.nkcimg1 }} {{ else }} http://placehold.it/265x290 {{ end }}"></a><h5 class="gray-text margin-ten no-margin-bottom xs-margin-top-five">Cooking Challenge</h5></div>
+                        <div class="col-md-3 col-sm-6 text-center xs-margin-bottom-ten"><a href="#"><img alt="" src="{{ if .Params.lockimg }} /assets/images/hsb/thumb/{{ .Params.lockimg }} {{ else }} http://placehold.it/265x290 {{ end }}"></a><h5 class="gray-text margin-ten no-margin-bottom xs-margin-top-five">Make an App</h5></div>
+                        <div class="col-md-3 col-sm-6 text-center xs-margin-bottom-ten"><a href="#"><img alt="" src="{{ if .Params.lockimg }} /assets/images/hsb/thumb/{{ .Params.lockimg }} {{ else }} http://placehold.it/265x290 {{ end }}"></a><h5 class="gray-text margin-ten no-margin-bottom xs-margin-top-five">Nail a Backflip</h5></div>
+                        <div class="col-md-3 col-sm-6 text-center"><a href="#"><img alt="" src="{{ if .Params.lockimg }} /assets/images/hsb/thumb/{{ .Params.lockimg }} {{ else }} http://placehold.it/265x290 {{ end }}"></a><h5 class="gray-text margin-ten no-margin-bottom xs-margin-top-five">New Language Challenge</h5></div>
                     </div>
                     <div class="item">
-                        <div class="col-md-3 col-sm-6 text-center xs-margin-bottom-ten"><a href="#"><img alt="" src="/images/hsb/homepage/lock.jpg"></a><h5 class="gray-text margin-ten no-margin-bottom xs-margin-top-five">Beatbox Freestyle</h5></div>
-                        <div class="col-md-3 col-sm-6 text-center xs-margin-bottom-ten"><a href="#"><img alt="" src="/images/hsb/homepage/lock.jpg"></a><h5 class="gray-text margin-ten no-margin-bottom xs-margin-top-five">Video Challenge</h5></div>
-                        <div class="col-md-3 col-sm-6 text-center xs-margin-bottom-ten"><a href="#"><img alt="" src="/images/hsb/homepage/lock.jpg"></a><h5 class="gray-text margin-ten no-margin-bottom xs-margin-top-five">Swimming Challenge</h5></div>
-                        <div class="col-md-3 col-sm-6 text-center"><a href="#"><img alt="" src="/images/hsb/homepage/lock.jpg"></a><h5 class="gray-text margin-ten no-margin-bottom xs-margin-top-five">Choreography Series</h5></div>
+                        <div class="col-md-3 col-sm-6 text-center xs-margin-bottom-ten"><a href="#"><img alt="" src="{{ if .Params.lockimg }} /assets/images/hsb/thumb/{{ .Params.lockimg }} {{ else }} http://placehold.it/265x290 {{ end }}"></a><h5 class="gray-text margin-ten no-margin-bottom xs-margin-top-five">Beatbox Freestyle</h5></div>
+                        <div class="col-md-3 col-sm-6 text-center xs-margin-bottom-ten"><a href="#"><img alt="" src="{{ if .Params.lockimg }} /assets/images/hsb/thumb/{{ .Params.lockimg }} {{ else }} http://placehold.it/265x290 {{ end }}"></a><h5 class="gray-text margin-ten no-margin-bottom xs-margin-top-five">Video Challenge</h5></div>
+                        <div class="col-md-3 col-sm-6 text-center xs-margin-bottom-ten"><a href="#"><img alt="" src="{{ if .Params.lockimg }} /assets/images/hsb/thumb/{{ .Params.lockimg }} {{ else }} http://placehold.it/265x290 {{ end }}"></a><h5 class="gray-text margin-ten no-margin-bottom xs-margin-top-five">Swimming Challenge</h5></div>
+                        <div class="col-md-3 col-sm-6 text-center"><a href="#"><img alt="" src="{{ if .Params.lockimg }} /assets/images/hsb/thumb/{{ .Params.lockimg }} {{ else }} http://placehold.it/265x290 {{ end }}"></a><h5 class="gray-text margin-ten no-margin-bottom xs-margin-top-five">Choreography Series</h5></div>
                     </div>
                     <div class="item">
-                        <div class="col-md-3 col-sm-6 text-center xs-margin-bottom-ten"><a href="#"><img alt="" src="/images/hsb/homepage/lock.jpg"></a><h5 class="gray-text margin-ten no-margin-bottom xs-margin-top-five">Basketball Challenge</h5></div>
-                        <div class="col-md-3 col-sm-6 text-center xs-margin-bottom-ten"><a href="#"><img alt="" src="/images/hsb/homepage/lock.jpg"></a><h5 class="gray-text margin-ten no-margin-bottom xs-margin-top-five">Create a Chatbot</h5></div>
-                        <div class="col-md-3 col-sm-6 text-center xs-margin-bottom-ten"><a href="#"><img alt="" src="/images/hsb/homepage/lock.jpg"></a><h5 class="gray-text margin-ten no-margin-bottom xs-margin-top-five">Rap Freestyle</h5></div>
-                        <div class="col-md-3 col-sm-6 text-center"><a href="#"><img alt="" src="/images/hsb/homepage/lock.jpg"></a><h5 class="gray-text margin-ten no-margin-bottom xs-margin-top-five">Write a Short Story</h5></div>
+                        <div class="col-md-3 col-sm-6 text-center xs-margin-bottom-ten"><a href="#"><img alt="" src="{{ if .Params.lockimg }} /assets/images/hsb/thumb/{{ .Params.lockimg }} {{ else }} http://placehold.it/265x290 {{ end }}"></a><h5 class="gray-text margin-ten no-margin-bottom xs-margin-top-five">Basketball Challenge</h5></div>
+                        <div class="col-md-3 col-sm-6 text-center xs-margin-bottom-ten"><a href="#"><img alt="" src="{{ if .Params.lockimg }} /assets/images/hsb/thumb/{{ .Params.lockimg }} {{ else }} http://placehold.it/265x290 {{ end }}"></a><h5 class="gray-text margin-ten no-margin-bottom xs-margin-top-five">Create a Chatbot</h5></div>
+                        <div class="col-md-3 col-sm-6 text-center xs-margin-bottom-ten"><a href="#"><img alt="" src="{{ if .Params.lockimg }} /assets/images/hsb/thumb/{{ .Params.lockimg }} {{ else }} http://placehold.it/265x290 {{ end }}"></a><h5 class="gray-text margin-ten no-margin-bottom xs-margin-top-five">Rap Freestyle</h5></div>
+                        <div class="col-md-3 col-sm-6 text-center"><a href="#"><img alt="" src="{{ if .Params.lockimg }} /assets/images/hsb/thumb/{{ .Params.lockimg }} {{ else }} http://placehold.it/265x290 {{ end }}"></a><h5 class="gray-text margin-ten no-margin-bottom xs-margin-top-five">Write a Short Story</h5></div>
                     </div>
                 </div>
             </div>
             <!-- slider controls -->
-            <a data-slide="prev" href="#myCarousel3" class="left carousel-control"> <img alt="" src="images/arrow-pre-white-bg.png"> </a> <a data-slide="next" href="#myCarousel3" class="right carousel-control"> <img alt="" src="images/arrow-next-white-bg.png"> </a>
+            <a data-slide="prev" href="#myCarousel3" class="left carousel-control"> <img alt="" src="/assets/images/arrow-pre-white-bg.png"> </a> <a data-slide="next" href="#myCarousel3" class="right carousel-control"> <img alt="" src="/assets/images/arrow-next-white-bg.png"> </a>
         </div>
     </section>
     <!-- end second mpc section -->

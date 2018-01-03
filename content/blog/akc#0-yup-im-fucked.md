@@ -6,7 +6,7 @@ draft: false
 author: "Alexander Hugh Sam"
 comments: true
 description: "Alright, so it's December 30th and I still haven't started my vision board. "
-img: "/images/hsb/akc0-vision1.jpg"
+img: "akc0-vision1.jpg"
 slug : "akc0-yup-im-fucked"
 shorttitle: "I'm Fucked"
 tags: []

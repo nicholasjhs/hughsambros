@@ -2,7 +2,7 @@
     <!-- head section -->
     <section class="page-title parallax3 parallax-fix page-title-large">
         <div class="opacity-medium bg-black"></div>
-        <img class="parallax-background-img" src="{{ .Params.coverimg }}" alt="" />
+        <img class="parallax-background-img" src="{{ if .Params.coverimg }} /assets/images/hsb/full/{{ .Params.coverimg }} {{ else }} http://placehold.it/1920x1100 {{ end }}" alt="" />
         <div class="container">
             <div class="row">
                 <div class="col-md-12 col-sm-12 text-center animated fadeInUp">

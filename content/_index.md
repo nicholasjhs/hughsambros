@@ -8,4 +8,10 @@ kaizendesc: >-
   Together, they suggest "change for the better" or simply "make good" – what we in English would call "improve" or "improvement".
   Simply put, this is the challenge we undertook to **better ourselves**.
 draft: false
+background: "cover2.jpg"
+firstkaizen: "kaizen1.jpg"
+secondkaizen: "kaizen3.jpg"
+lockimg: "lock.jpg"
+akcimg1: "akc1-hockey.jpg"
+nkcimg1: "nkc1-cooking.jpg"
 ---

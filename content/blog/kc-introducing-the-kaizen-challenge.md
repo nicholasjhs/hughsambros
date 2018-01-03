@@ -6,7 +6,7 @@ draft: false
 author: "Alexander Hugh Sam"
 comments: true
 description: "THE WHOLE IDEA OF STARTING HUGHSAMBROS.COM CAME AFTER I READ THROUGH MAX DEUTSCH'S PROJECT HE CALLED MONTH TO MASTER (M2M)."
-img: "/images/hsb/kc-challenge.jpg"
+img: "kc-challenge.jpg"
 slug : "kc-introducing-the-kaizen-challenge"
 shorttitle: "The Kaizen Challenge"
 tags: []

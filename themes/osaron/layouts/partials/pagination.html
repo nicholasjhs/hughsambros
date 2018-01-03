@@ -3,11 +3,11 @@
         <!-- pagination -->
         <div class="pagination">
             {{ if .Paginator.HasPrev }}
-                <a href="{{ .Paginator.Prev.URL }}"><img src="/images/arrow-pre-small.png" alt=""/></a>
+                <a href="{{ .Paginator.Prev.URL }}"><img src="/assets/images/arrow-pre-small.png" alt=""/></a>
             {{ end }}
             <a href="">{{ .Paginator.PageNumber }} of {{ .Paginator.TotalPages }}</a>
             {{ if .Paginator.HasNext }}
-                <a href="{{ .Paginator.Next.URL }}"><img src="/images/arrow-next-small.png" alt=""/></a>
+                <a href="{{ .Paginator.Next.URL }}"><img src="/assets/images/arrow-next-small.png" alt=""/></a>
             {{ end }}
         </div>
         <!-- end pagination -->

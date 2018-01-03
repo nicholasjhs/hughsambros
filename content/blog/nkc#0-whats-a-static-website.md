@@ -6,7 +6,7 @@ draft: false
 author: "Nicholas Hugh Sam"
 comments: true
 description: "a brief post about what exactly is a static website"
-img: "/images/hsb/nkc0-website1.jpeg"
+img: "nkc0-website1.jpg"
 slug : "nkc0-whats-a-static-website"
 shorttitle: "Static Website Explained (ish)"
 tags: []
