@@ -33,11 +33,11 @@
     "postimg:resizethumb": "renamer --find 'thumb-' --replace '' ../static/assets/images/hsb/thumb-temp/* && mv -n ../static/assets/images/hsb/thumb-temp/* ../static/assets/images/hsb/thumb",
 
     "prebuild:img": "npm run img:optimize",
-    "build:img": "npm run img:resizefull && npm run img:resizehalf && npm run img:resizequart && npm run img:resizethumb",
+    "build:img": "parallelshell 'npm run img:resizefull' 'npm run img:resizehalf' 'npm run img:resizequart' 'npm run img:resizethumb' ",
     "postbuild:img": "npm run cleanimages",
 
     "prebuild": "npm run cleanpublic",
-    "build": "npm run build:img && hugo"
+    "build": "npm run build:img"
   },
   "author": "Nicholas Hugh Sam",
   "license": "MIT",

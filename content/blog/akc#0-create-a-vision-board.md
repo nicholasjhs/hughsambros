@@ -40,4 +40,4 @@ These areas would be in business, personal, friends, family, love life and finan
 
 Ready to finally get started!
 
-- Alex.
+-Alex.

@@ -33,4 +33,4 @@ Final Thoughts
 
 So, I hope I haven't lost you yet, but the main takeaway is that static websites are good for displaying fixed information and dynamic websites are good for displaying "personalized" (or catered) information. I would also like to mention that a dynamic website can also be used to display "fixed information", but in my opinion, you would be better off using a static website. Lastly, I would like to say that I'm no expert on static websites (or even dynamic websites for that matter) as I JUST learnt about them 4 months ago so if I send anything wrongful, then please comment or contact us and I will gladly rectify the post. As always, you guys can always contact us or comment for any additional information on this topic and we will gladly answer you. Until next time. Peace
 
--Nich
+-Nich.
