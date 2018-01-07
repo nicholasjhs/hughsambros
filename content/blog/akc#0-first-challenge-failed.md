@@ -6,7 +6,7 @@ draft: false
 author: "Alexander Hugh Sam"
 comments: true
 description: "Yup. I failed. The first challenge of this project and I am starting with a failure. Certainly, not the way I wanted my 2017 to end, but it is what it is."
-img: ""
+img: "akc0-vision2.jpg"
 slug : "akc0-first-challenge-failed"
 shorttitle: "AKC#0 failure"
 tags: []

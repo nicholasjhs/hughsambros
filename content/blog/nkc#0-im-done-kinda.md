@@ -6,7 +6,7 @@ draft: false
 author: "Nicholas Hugh Sam"
 comments: true
 description: "I finally finished the new website... but I'm late and I cheated a bit"
-img: "nkc0-website2.jpeg"
+img: "nkc0-website2.jpg"
 slug : "nkc0-im-done-kinda"
 shorttitle: "The New Website"
 tags: ["Website"]
