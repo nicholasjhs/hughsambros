@@ -2,30 +2,30 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on hughsambros.</title>
-    <link>https://hughsambros.netlify.com/tags/</link>
+    <link>https://www.hughsambros.com/tags/</link>
     <description>Recent content in Tags on hughsambros.</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 07 Jan 2018 13:52:49 -0500</lastBuildDate>
     
-	<atom:link href="https://hughsambros.netlify.com/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.hughsambros.com/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Cooking</title>
-      <link>https://hughsambros.netlify.com/tags/cooking/</link>
+      <link>https://www.hughsambros.com/tags/cooking/</link>
       <pubDate>Sun, 07 Jan 2018 13:52:49 -0500</pubDate>
       
-      <guid>https://hughsambros.netlify.com/tags/cooking/</guid>
+      <guid>https://www.hughsambros.com/tags/cooking/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Website</title>
-      <link>https://hughsambros.netlify.com/tags/website/</link>
+      <link>https://www.hughsambros.com/tags/website/</link>
       <pubDate>Mon, 01 Jan 2018 14:40:59 -0500</pubDate>
       
-      <guid>https://hughsambros.netlify.com/tags/website/</guid>
+      <guid>https://www.hughsambros.com/tags/website/</guid>
       <description></description>
     </item>
     

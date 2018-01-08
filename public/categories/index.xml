@@ -2,57 +2,57 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on hughsambros.</title>
-    <link>https://hughsambros.netlify.com/categories/</link>
+    <link>https://www.hughsambros.com/categories/</link>
     <description>Recent content in Categories on hughsambros.</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 03 Jan 2018 14:49:23 -0500</lastBuildDate>
     
-	<atom:link href="https://hughsambros.netlify.com/categories/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.hughsambros.com/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Akc</title>
-      <link>https://hughsambros.netlify.com/categories/akc/</link>
+      <link>https://www.hughsambros.com/categories/akc/</link>
       <pubDate>Wed, 03 Jan 2018 14:49:23 -0500</pubDate>
       
-      <guid>https://hughsambros.netlify.com/categories/akc/</guid>
+      <guid>https://www.hughsambros.com/categories/akc/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Alex</title>
-      <link>https://hughsambros.netlify.com/categories/alex/</link>
+      <link>https://www.hughsambros.com/categories/alex/</link>
       <pubDate>Wed, 03 Jan 2018 14:49:23 -0500</pubDate>
       
-      <guid>https://hughsambros.netlify.com/categories/alex/</guid>
+      <guid>https://www.hughsambros.com/categories/alex/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Kc</title>
-      <link>https://hughsambros.netlify.com/categories/kc/</link>
+      <link>https://www.hughsambros.com/categories/kc/</link>
       <pubDate>Sun, 17 Dec 2017 11:58:43 -0500</pubDate>
       
-      <guid>https://hughsambros.netlify.com/categories/kc/</guid>
+      <guid>https://www.hughsambros.com/categories/kc/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Nich</title>
-      <link>https://hughsambros.netlify.com/categories/nich/</link>
+      <link>https://www.hughsambros.com/categories/nich/</link>
       <pubDate>Sun, 07 Jan 2018 13:52:49 -0500</pubDate>
       
-      <guid>https://hughsambros.netlify.com/categories/nich/</guid>
+      <guid>https://www.hughsambros.com/categories/nich/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Nkc</title>
-      <link>https://hughsambros.netlify.com/categories/nkc/</link>
+      <link>https://www.hughsambros.com/categories/nkc/</link>
       <pubDate>Sun, 07 Jan 2018 13:52:49 -0500</pubDate>
       
-      <guid>https://hughsambros.netlify.com/categories/nkc/</guid>
+      <guid>https://www.hughsambros.com/categories/nkc/</guid>
       <description></description>
     </item>
     

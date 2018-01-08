@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Website on hughsambros.</title>
-    <link>https://hughsambros.netlify.com/tags/website/</link>
+    <link>https://www.hughsambros.com/tags/website/</link>
     <description>Recent content in Website on hughsambros.</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 01 Jan 2018 14:40:59 -0500</lastBuildDate>
     
-	<atom:link href="https://hughsambros.netlify.com/tags/website/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.hughsambros.com/tags/website/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>NKC#0: Im Done !!... Kinda</title>
-      <link>https://hughsambros.netlify.com/blog/2018/01/nkc0-im-done-kinda/</link>
+      <link>https://www.hughsambros.com/blog/2018/01/nkc0-im-done-kinda/</link>
       <pubDate>Mon, 01 Jan 2018 14:40:59 -0500</pubDate>
       
-      <guid>https://hughsambros.netlify.com/blog/2018/01/nkc0-im-done-kinda/</guid>
+      <guid>https://www.hughsambros.com/blog/2018/01/nkc0-im-done-kinda/</guid>
       <description>As you can see, the site is still the same and that is because I have FAILED my first challenge&amp;hellip;. I really wanted to go LIVE with the real website before 2018, but I guess that 6 days isn&amp;rsquo;t enough to learn how to build and DEPLOY a website. However, the good news is that I managed to complete it today and I really like the results. Right now, the only thing left to do is to connect it to Netlify CMS, which is a content management software tool that will allow Alex and I to write our posts online instead of having to write &amp;ldquo;code&amp;rdquo; aka directly in the file.</description>
     </item>
     
