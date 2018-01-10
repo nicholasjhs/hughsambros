@@ -1,0 +1,61 @@
+{
+  "name": "hugo-npm-starter",
+  "version": "1.0.0",
+  "description": "Streamline process to minify, bundle CSS & js files, optimize and resize images.",
+  "keywords": [
+    "npm",
+    "css",
+    "js",
+    "images"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "uglify": "mkdir -p ./themes/osaron/static/assets/js && uglifyjs ./themes/osaron/static-src/assets/src-js/*.js -m -o ./themes/osaron/static/assets/js/app.js && uglifyjs ./themes/osaron/static-src/assets/src-js/*.js -m -c -o ./themes/osaron/static/assets/js/app.min.js",
+    "css": "mkdir -p ./themes/osaron/static/assets/css && cleancss ./themes/osaron/static-src/assets/src-css/*.css -o ./themes/osaron/static/assets/css/main.min.css",
+    "img:optimize": "mkdir -p ./themes/osaron/static-src/assets/src-images/optimized && imagemin ./themes/osaron/static/assets/images/originals/* -o ./themes/osaron/static-src/assets/src-images/optimized",
+    "cleanimages": "rm ./themes/osaron/static/assets/images/hsb/full-temp/* && rm ./themes/osaron/static/assets/images/hsb/half-temp/* && rm ./themes/osaron/static/assets/images/hsb/quart-temp/* && rm ./themes/osaron/static/assets/images/hsb/eight-temp/* && rm ./themes/osaron/static/assets/images/hsb/thumb-temp/*",
+    "cleanpublic": "rm -Rf ./public",
+
+    "preimg:resizefull": "mkdir -p ./themes/osaron/static/assets/images/hsb/full-temp && mkdir -p ./themes/osaron/static/assets/images/hsb/full",
+    "img:resizefull": "image-batch-resizer -d './themes/osaron/static-src/assets/src-images/optimized' -s '1920x1920>' -p 'full-' && mv ./themes/osaron/static-src/assets/src-images/optimized/full-* ./themes/osaron/static/assets/images/hsb/full-temp",
+    "postimg:resizefull": "renamer --find 'full-' --replace '' ./themes/osaron/static/assets/images/hsb/full-temp/* && mv -n ./themes/osaron/static/assets/images/hsb/full-temp/* ./themes/osaron/static/assets/images/hsb/full",
+
+    "preimg:resizehalf": "mkdir -p ./themes/osaron/static/assets/images/hsb/half-temp && mkdir -p ./themes/osaron/static/assets/images/hsb/half",
+    "img:resizehalf": "image-batch-resizer -d './themes/osaron/static-src/assets/src-images/optimized' -s '1200x1200>' -p 'half-' && mv ./themes/osaron/static-src/assets/src-images/optimized/half-* ./themes/osaron/static/assets/images/hsb/half-temp",
+    "postimg:resizehalf": "renamer --find 'half-' --replace '' ./themes/osaron/static/assets/images/hsb/half-temp/* && mv -n ./themes/osaron/static/assets/images/hsb/half-temp/* ./themes/osaron/static/assets/images/hsb/half",
+
+    "preimg:resizequart": "mkdir -p ./themes/osaron/static/assets/images/hsb/quart-temp && mkdir -p ./themes/osaron/static/assets/images/hsb/quart",
+    "img:resizequart": "image-batch-resizer -d './themes/osaron/static-src/assets/src-images/optimized' -s '800x800>' -p 'quart-' && mv ./themes/osaron/static-src/assets/src-images/optimized/quart-* ./themes/osaron/static/assets/images/hsb/quart-temp",
+    "postimg:resizequart": "renamer --find 'quart-' --replace '' ./themes/osaron/static/assets/images/hsb/quart-temp/* && mv -n ./themes/osaron/static/assets/images/hsb/quart-temp/* ./themes/osaron/static/assets/images/hsb/quart",
+
+    "preimg:resizeeight": "mkdir -p ./themes/osaron/static/assets/images/hsb/eight-temp && mkdir -p ./themes/osaron/static/assets/images/hsb/eight",
+    "img:resizeeight": "image-batch-resizer -d './themes/osaron/static-src/assets/src-images/optimized' -s '400x400>' -p 'eight-' && mv ./themes/osaron/static-src/assets/src-images/optimized/eight-* ./themes/osaron/static/assets/images/hsb/eight-temp",
+    "postimg:resizeeight": "renamer --find 'eight-' --replace '' ./themes/osaron/static/assets/images/hsb/eight-temp/* && mv -n ./themes/osaron/static/assets/images/hsb/eight-temp/* ./themes/osaron/static/assets/images/hsb/eight",
+
+    "preimg:resizethumb": "mkdir -p ./themes/osaron/static/assets/images/hsb/thumb-temp && mkdir -p ./themes/osaron/static/assets/images/hsb/thumb",
+    "img:resizethumb": "image-batch-resizer -d './themes/osaron/static-src/assets/src-images/optimized' -s '100x100>' -p 'thumb-' && mv ./themes/osaron/static-src/assets/src-images/optimized/thumb-* ./themes/osaron/static/assets/images/hsb/thumb-temp",
+    "postimg:resizethumb": "renamer --find 'thumb-' --replace '' ./themes/osaron/static/assets/images/hsb/thumb-temp/* && mv -n ./themes/osaron/static/assets/images/hsb/thumb-temp/* ./themes/osaron/static/assets/images/hsb/thumb",
+
+    "prebuild:img": "npm run img:optimize",
+    "build:img": "npm run img:resizefull && parallelshell 'npm run img:resizehalf' 'npm run img:resizequart' 'npm run img:resizeeight' 'npm run img:resizethumb' ",
+    "postbuild:img": "npm run cleanimages",
+
+    "prebuild": "npm run cleanpublic",
+    "build": "npm run build:img && hugo"
+  },
+  "author": "Nicholas Hugh Sam",
+  "license": "MIT",
+  "devDependencies": {
+    "browserify": "^14.5.0",
+    "browserify-css": "^0.14.0",
+    "clean-css-cli": "^4.1.10",
+    "image-batch-resizer": "^0.8.1",
+    "imagemin-cli": "^3.0.0",
+    "imagemin-pngquant": "^5.0.1",
+    "onchange": "^3.3.0",
+    "parallelshell": "^3.0.2",
+    "renamer": "^0.6.1",
+    "resize-img-cli": "^1.0.0",
+    "uglify-js": "^3.3.4"
+  }
+}
