@@ -16,6 +16,9 @@
     "cleanimages": "rm ./themes/osaron/static/assets/images/hsb/full-temp/* && rm ./themes/osaron/static/assets/images/hsb/half-temp/* && rm ./themes/osaron/static/assets/images/hsb/quart-temp/* && rm ./themes/osaron/static/assets/images/hsb/eight-temp/* && rm ./themes/osaron/static/assets/images/hsb/thumb-temp/*",
     "cleanpublic": "rm -Rf ./public",
 
+    "prehugo": "npm run cleanpublic",
+    "hugo": "hugo",
+
     "preimg:resizefull": "mkdir -p ./themes/osaron/static/assets/images/hsb/full-temp && mkdir -p ./themes/osaron/static/assets/images/hsb/full",
     "img:resizefull": "image-batch-resizer -d './themes/osaron/static-src/assets/src-images/optimized' -s '1920x1920>' -p 'full-' && mv ./themes/osaron/static-src/assets/src-images/optimized/full-* ./themes/osaron/static/assets/images/hsb/full-temp",
     "postimg:resizefull": "renamer --find 'full-' --replace '' ./themes/osaron/static/assets/images/hsb/full-temp/* && mv -n ./themes/osaron/static/assets/images/hsb/full-temp/* ./themes/osaron/static/assets/images/hsb/full",

@@ -10,7 +10,7 @@ img: "akc1-hockey.jpg"
 slug : "akc1-the-hockey-challenge"
 shorttitle: "Hockey Challenge"
 tags: []
-categories: ["Alex"]
+categories: ["Alex", "AKC"]
 ---
 My first challenge of 2018 is the hockey challenge!
 
@@ -33,8 +33,11 @@ The big difference is that I will be removing the passers (I'll have a bunch of 
 **How will I complete this challenge:**
 
 For me to complete this challenge, I will need to focus on two things:
+
 My accuracy when shooting the puck, so that I can aim for the 4 corners
+
 My fast release when shooting the puck, so that I can shoot multiple pucks in my allowed 25 seconds.
+
 My plan is to have many sessions throughout the month, where I will focus on either my accuracy or my release. My current plan is to divide my month into three parts:
 
 * The first week and a half will be dedicated to improving my release
