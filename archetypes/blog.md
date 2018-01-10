@@ -2,7 +2,7 @@
 title: "{{ replace .TranslationBaseName "-" " " | title }}"
 date: {{ .Date }}
 publishdate: {{ .Date }}
-draft: true
+draft: false
 author: "Nicholas Hugh Sam"
 comments: true
 description: ""

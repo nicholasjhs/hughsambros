@@ -2,7 +2,7 @@
 title: "AKC#1: the Hockey Challenge"
 date: 2018-01-10T11:33:12-05:00
 publishdate: 2018-01-10T11:33:12-05:00
-draft: true
+draft: false
 author: "Alexander Hugh Sam"
 comments: true
 description: "The challenge will be a modified version of the accuracy shooting challenge from the NHL All-Stars Skills "
