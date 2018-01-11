@@ -10,7 +10,7 @@ img: "nkc0-website1.jpg"
 slug : "nkc0-whats-a-static-website"
 shorttitle: "Static Website Explained (ish)"
 tags: []
-categories: ["Nich", "NKC"]
+categories: ["Nich", "NKC", "Kaizen"]
 ---
 HEY GUYS !!! I'm finally **DONE** with school and am totally ready to start building the new website (yayyy, I only have like 4 days left to build it), but before I do, I just want to write a brief post about what exactly is a static website.
 

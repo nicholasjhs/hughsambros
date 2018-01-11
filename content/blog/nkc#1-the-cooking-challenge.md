@@ -10,7 +10,7 @@ img: "nkc1-cooking.jpg"
 slug : "nkc1-the-cooking-challenge"
 shorttitle: "Nic's Cooking Challenge"
 tags: ["Cooking"]
-categories: ["Nich", "NKC"]
+categories: ["Nich", "NKC", "Kaizen"]
 ---
 My second challenge is to be able to cook by the end of January 2018.
 

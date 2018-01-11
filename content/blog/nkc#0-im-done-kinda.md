@@ -10,7 +10,7 @@ img: "nkc0-website2.jpg"
 slug : "nkc0-im-done-kinda"
 shorttitle: "The New Website"
 tags: ["Website"]
-categories: ["Nich", "NKC"]
+categories: ["Nich", "NKC", "Kaizen"]
 ---
 As you can see, the site is still the same and that is because I have FAILED my first challenge.... I really wanted to go LIVE with the real website before 2018, but I guess that 6 days isn't enough to learn how to build and DEPLOY a website. However, the good news is that I managed to complete it today and I really like the results. Right now, the only thing left to do is to connect it to Netlify CMS, which is a content management software tool that will allow Alex and I to write our posts online instead of having to write "code" aka directly in the file. Hopefully, by the end of the day, you'll be able to see the new website when you go to www.hughsambros.com. Now, I have a few things that I have to mention, I already failed my challenge, but I unfortunately also had to cut a few corners given my short timeline and here they are:
 

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Food on hughsambros.</title>
+    <link>https://www.hughsambros.com/tags/food/</link>
+    <description>Recent content in Food on hughsambros.</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 11 Jan 2018 15:03:56 -0500</lastBuildDate>
+    
+	<atom:link href="https://www.hughsambros.com/tags/food/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>NKC#1: My First Meal</title>
+      <link>https://www.hughsambros.com/blog/2018/01/my-first-meal/</link>
+      <pubDate>Thu, 11 Jan 2018 15:03:56 -0500</pubDate>
+      
+      <guid>https://www.hughsambros.com/blog/2018/01/my-first-meal/</guid>
+      <description>Ever since I can remember, Wednesdays have always been pasta day in our house. I always found it really peculiar that we had a pasta day in an asian household. I mean, think about it, how many asian families do you know that doesn&amp;rsquo;t eat white rice everyday and even worse, that eats pasta EVERY Wednesday? I, personally, don&amp;rsquo;t know any other asian household, but I guess it has to do less with the fact that we&amp;rsquo;re asian and more with the fact that my mom absolutely LOVES Italian cooking.</description>
+    </item>
+    
+  </channel>
+</rss>

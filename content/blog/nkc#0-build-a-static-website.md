@@ -10,7 +10,7 @@ img: "nkc0-website.jpg"
 slug : "nkc0-build-a-static-website"
 shorttitle: "Intro to NKC#0"
 tags: []
-categories: ["Nich", "NKC"]
+categories: ["Nich", "NKC", "Kaizen"]
 ---
 My first challenge is to build a static website that will replace the current website in 2018.
 

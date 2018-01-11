@@ -10,7 +10,7 @@ img: "akc0-vision.jpg"
 slug : "akc0-create-a-vision-board"
 shorttitle: "Intro to AKC#0"
 tags: []
-categories: ["Alex", "AKC"]
+categories: ["Alex", "AKC", "Kaizen"]
 ---
 My first challenge is to create my own vision board.
 

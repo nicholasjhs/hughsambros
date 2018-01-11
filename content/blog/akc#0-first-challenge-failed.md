@@ -10,7 +10,7 @@ img: "akc0-vision2.jpg"
 slug : "akc0-first-challenge-failed"
 shorttitle: "AKC#0 failure"
 tags: []
-categories: ["Alex", "AKC"]
+categories: ["Alex", "AKC", "Kaizen"]
 ---
 Yup. I failed. The first challenge of this project and I am starting with a failure. Certainly, not the way I wanted my 2017 to end, but it is what it is. Instead of sulking and making excuses for why I didn't complete this challenge, I thought it would be a lot more instructional for me to list what were my mistakes and what I could've done instead to turn this failure into a learning experience.
 

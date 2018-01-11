@@ -10,7 +10,7 @@ img: "kc-challenge.jpg"
 slug : "kc-introducing-the-kaizen-challenge"
 shorttitle: "The Kaizen Challenge"
 tags: []
-categories: ["Alex", "KC", "AKC"]
+categories: ["Alex", "AKC", "Kaizen"]
 ---
 The whole idea of starting hughsambros.com came after I read through Max Deutsch's project he called [Month to Master (M2M)](https://medium.com/@maxdeutsch/m2m-day-1-completing-12-ridiculously-hard-challenges-in-12-months-9843700c741f). During this project, Max spent one year trying to complete 12 super hard challenges (tackling 1 every month) such as drawing a realistic self-portrait, solving a Rubik's cube in 20 seconds, memorizing the order of a deck of cards in less two minutes and doing a freestyle-rap for 3 min.
 

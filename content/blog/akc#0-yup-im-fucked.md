@@ -10,7 +10,7 @@ img: "akc0-vision1.jpg"
 slug : "akc0-yup-im-fucked"
 shorttitle: "I'm Fucked"
 tags: []
-categories: ["Alex", "AKC"]
+categories: ["Alex", "AKC", "Kaizen"]
 ---
 Alright, so it's December 29th and I still haven't started my vision board. What's worst, is that I have something planned every day until the New Year, so I have even less (no) time to complete my challenge! BUT NO EXCUSES! I am going to start the New Years on a good note and complete this vision board. At the very least, I already bought a cork board and some pins as well, so that's a start.
 
@@ -158,7 +158,7 @@ The updated version of the list above now looks like this:
 
 
         + No major injuries
-        
+
 
 + People I Look up to
 

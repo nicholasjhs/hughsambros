@@ -28,6 +28,7 @@ The challenge will be a modified version of the accuracy shooting challenge from
 
 {{< youtube RrtJbATsIso >}}
 
+
 The big difference is that I will be removing the passers (I'll have a bunch of pucks next to me instead), and I will be giving myself a time limit of 25 seconds to complete the challenge. This might seem pretty low, but by removing the passers,  this should save me some extra seconds.
 
 **How will I complete this challenge:**
