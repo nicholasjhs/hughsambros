@@ -5,7 +5,7 @@
             <div class="row">
                 <div class="col-md-8 col-sm-12 wow fadeInUp" data-wow-duration="300ms">
                     <!-- page title -->
-                    <h1 class="black-text">About the Hugh Sam Bros.</h1>
+                    <h1 class="black-text">{{ .Title | upper }}</h1>
                     <!-- end page title -->
                 </div>
             </div>
@@ -60,21 +60,9 @@
                     <div class="blog-post">
                         <div class="blog-post-images"><a href="blog-single-full-width-with-image-slider.html"><img src="{{ if .Params.nicpic }} /assets/images/hsb/quart/{{ .Params.nicpic}} {{ else }} http://placehold.it/800x500 {{end}}" alt=""></a></div>
                         <div class="post-details">
-                            <p class="post-title">NICHOLAS JAMES OF HOUSE HUGH SAM, SECOND BORN, BREAKER OF CODES  </p>
+                            <p class="post-title"> {{ .Params.nictitle | markdownify }} </p>
                             <p class="width-100 gray-text">
-                                For as long as I can remember, I was always interested by so many things and, especially when I was young,
-                                I would always daydream about being a Basketball Star, a Rapper, a Live Performer, a Professional Badminton Player, a Dancer and all these other cool ass careers.
-                                But, my younger self had other daily plans including playing MapleStory and binge-watching animes (which I still do)
-                                so I was only able to dedicate myself to one activity, Badminton.<br><br>
-
-                                Today, I'm a 22 years old Software Engineering student (not a professional Badminton Player) and although I quite like my field of study, I'm always asking myself
-                                "What if I learned this skill" or "What if I practiced that activity" where would I be now. And, honestly, I don't even know if I actually like those things or
-                                if it just seems better than what I currently have. So, when my brother told me about this 30 day challenge, I took this as an opportunity to start a
-                                self-exploration/self-improvement journey in order to find my interests and, ultimately, kill all those "what ifs".<br><br>
-
-                                So yeah, that's why I started this new chapter and a bit about myself. I hope you enjoy our adventures and that some of you will hop along for the ride!<br><br>
-
-                                -Nich.
+                                {{ .Params.nicdesc | markdownify }}
                             </p>
                         </div>
                     </div>
@@ -84,22 +72,9 @@
                     <div class="blog-post">
                         <div class="blog-post-images"><a href="blog-single-full-width.html"><img src="{{ if .Params.alexpic }} /assets/images/hsb/quart/{{ .Params.alexpic}} {{ else }} http://placehold.it/800x500 {{end}}" alt=""></a></div>
                         <div class="post-details">
-                            <p class="post-title">ALEXANDER MARK OF HOUSE HUGH SAM, FIRST HEIR TO THE THRONE, PRINCE OF ROBOTS</p>
+                            <p class="post-title">{{ .Params.alextitle | markdownify }}</p>
                             <p class="width-100 gray-text">
-                                Ever since I was a kid, there was only this one question that I didn't really have an answer to (and still don't to this day): "What do you want to do when you grew up?"
-                                Other kids would answer they wanted to become a police officer, a teacher, a lawyer, a doctor. On the other hand, I really just wanted to become a Power Rangers (and secretly, I still do).<br><br>
-
-                                Today, three years after graduating as an Electrical Engineer, I am currently working as an IT Consultant at Deloitte, one of the big 4 accounting firms in the world, which is something
-                                I never imagined of doing. Do I like my job? Of course I do! It allows me to interact with a bunch of amazing people, to learn and try new things and to solve complex problems,
-                                which are all things I love doing. However, is this the job I want to do for the rest of my life? If I am being honest with myself, no it's not.<br><br>
-
-                                And the reason why is because consulting is not my passion. So the real question is, what is my passion? Well, I have no idea. But by creating this blog, I was hopeful that in doing the
-                                monthly progression challenges, it would help me in finding what my passion is. And if by the end of the year, I still don't know what my passion is? Well, I would still be doing
-                                13 awesome challenges along the way, so it's a win-win in my book.<br><br>
-
-                                I hope you will enjoy HughSamBros and to follow our progress throughout the years to come!<br><br>
-
-                                -Alex.
+                                {{ .Params.alexdesc | markdownify }}
                             </p>
                         </div>
                     </div>
