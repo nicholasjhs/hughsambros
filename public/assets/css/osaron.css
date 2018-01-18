@@ -1,5 +1,5 @@
 /* homepage kaizen challenge */
 .kaizen-post img { transition: all .3s ease; -webkit-transition: all .3s ease; -moz-transition: all .3s ease; opacity:1}
-.kaizen-post:hover img { -ms-transform: scale(1.2,1.2); -webkit-transform: scale(1.2,1.2);  transform: scale(1.2,1.2); transition: all .3s ease; -webkit-transition: all .3s ease; -moz-transition: all .3s ease; opacity:0.5}
+.kaizen-post:hover img { -ms-transform: scale(1.2,1.2); -webkit-transform: scale(1.2,1.2);  transform: scale(1.2,1.2); transition: all .3s ease; -webkit-transition: all .3s ease; -moz-transition: all .3s ease; opacity:0.7}
 .kaizen-post-images { width:auto; overflow:hidden; background-color:#000000;}
 .kaizen-post-images img { max-width: 101%}

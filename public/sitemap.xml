@@ -3,17 +3,22 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://www.hughsambros.com/blog/2018/01/my-first-meal/</loc>
+    <loc>https://www.hughsambros.com/blog/2018/01/akc1-1-hockey-update/</loc>
+    <lastmod>2018-01-18T10:49:14-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.hughsambros.com/blog/2018/01/nkc1-1-my-first-meal/</loc>
     <lastmod>2018-01-11T15:03:56-05:00</lastmod>
   </url>
   
   <url>
-    <loc>https://www.hughsambros.com/blog/2018/01/akc1-the-hockey-challenge/</loc>
+    <loc>https://www.hughsambros.com/blog/2018/01/akc1-0-the-hockey-challenge/</loc>
     <lastmod>2018-01-10T11:33:12-05:00</lastmod>
   </url>
   
   <url>
-    <loc>https://www.hughsambros.com/blog/2018/01/nkc1-the-cooking-challenge/</loc>
+    <loc>https://www.hughsambros.com/blog/2018/01/nkc1-0-the-cooking-challenge/</loc>
     <lastmod>2018-01-07T13:52:49-05:00</lastmod>
   </url>
   
@@ -43,7 +48,7 @@
   </url>
   
   <url>
-    <loc>https://www.hughsambros.com/contact/</loc>
+    <loc>https://www.hughsambros.com/contact-us/</loc>
     <lastmod>2017-12-29T13:42:36-05:00</lastmod>
   </url>
   
@@ -74,19 +79,19 @@
   
   <url>
     <loc>https://www.hughsambros.com/categories/akc/</loc>
-    <lastmod>2018-01-10T11:33:12-05:00</lastmod>
+    <lastmod>2018-01-18T10:49:14-05:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://www.hughsambros.com/categories/alex/</loc>
-    <lastmod>2018-01-10T11:33:12-05:00</lastmod>
+    <lastmod>2018-01-18T10:49:14-05:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://www.hughsambros.com/categories/</loc>
-    <lastmod>2018-01-10T11:33:12-05:00</lastmod>
+    <lastmod>2018-01-18T10:49:14-05:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -103,8 +108,14 @@
   </url>
   
   <url>
+    <loc>https://www.hughsambros.com/tags/hockey/</loc>
+    <lastmod>2018-01-18T10:49:14-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://www.hughsambros.com/categories/kaizen/</loc>
-    <lastmod>2018-01-11T15:03:56-05:00</lastmod>
+    <lastmod>2018-01-18T10:49:14-05:00</lastmod>
     <priority>0</priority>
   </url>
   

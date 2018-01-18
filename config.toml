@@ -14,5 +14,5 @@ paginate = 5
     category = "categories"
 
 [permalinks]
-    blog = "/:section/:year/:month/:slug/"
-    singles = "/:slug"
+    blog = "/:section/:year/:month/:filename/"
+    singles = "/:filename/"
