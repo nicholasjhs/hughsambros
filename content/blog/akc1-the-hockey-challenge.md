@@ -10,7 +10,7 @@ img: "akc1-hockey.jpg"
 slug : "akc1-the-hockey-challenge"
 shorttitle: "Hockey Challenge"
 tags: []
-categories: ["Alex", "AKC"]
+categories: ["Alex", "AKC", "Kaizen"]
 ---
 My first challenge of 2018 is the hockey challenge!
 

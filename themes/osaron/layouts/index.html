@@ -1,5 +1,6 @@
 {{ define "main" }}
     <!-- slider -->
+    <!-- home main aka index-->
     <section id="slider" class="no-padding">
         <div id="owl-demo" class="owl-carousel owl-theme light-pagination square-pagination dark-pagination-without-next-prev-arrow main-slider">
             <!-- slider item -->
@@ -31,8 +32,19 @@
                     <p class="no-margin-bottom">{{ .Params.kaizendesc | markdownify}}</p>
                     <a class="highlight-button-black-border btn btn-small no-margin-bottom inner-link sm-margin-bottom-ten" href="{{ .Site.BaseURL }}blog/2017/12/kc-introducing-the-kaizen-challenge/">Read More</a>
                 </div>
-                <div class="col-md-3 col-sm-6 text-center col-md-offset-1 xs-margin-bottom-ten"><img src="{{ if .Params.firstkaizen }} /assets/images/hsb/eight/{{ .Params.firstkaizen }} {{ else }} http://placehold.it/500x600 {{ end }}" class="xs-img-full" alt=""/></div>
-                <div class="col-md-3 col-sm-6 text-center "><img src="{{ if .Params.secondkaizen }} /assets/images/hsb/eight/{{ .Params.secondkaizen }} {{ else }} http://placehold.it/500x600 {{ end }}" class="xs-img-full" alt=""/></div>
+                <div class="col-md-7">
+                <span class="title-large text-center text-uppercase letter-spacing-1 font-weight-600 black-text display-block sm-margin-top-ten">Recent Kaizen Posts</span>
+                    {{ range first 2 (where .Site.Taxonomies.categories.kaizen.Pages "Section" "blog")}}
+                        <div class="col-md-6 col-sm-8 text-center xs-margin-bottom-ten kaizen-post">
+                            <a href="{{ .RelPermalink }}">
+                                <div class="kaizen-post-images">
+                                    <img src="{{ if .Params.img }} /assets/images/hsb/eight/{{ .Params.img }} {{ else }} http://placehold.it/500x600 {{ end }}" class="xs-img-full" alt=""/>
+                                </div>
+                            </a>
+                            <h5 class="gray-text margin-ten no-margin-bottom xs-margin-top-five">{{ .Title }}</h5>
+                        </div>
+                    {{ end }}
+                </div>
             </div>
         </div>
     </section>
@@ -50,24 +62,37 @@
                     </div>
                     <!-- end section title -->
                 </div>
+                {{ $achallenges := .Params.alexchallenges }}
                 <div class="carousel-inner margin-seven no-margin-bottom">
                     <div class="item active">
-                        <div class="col-md-3 col-sm-6 text-center xs-margin-bottom-ten"><a href="{{ .Site.BaseURL }}/blog/2018/01/akc1-the-hockey-challenge/"><img alt="" src="{{ if .Params.akcimg1 }} /assets/images/hsb/eight/{{ .Params.akcimg1 }} {{ else }} http://placehold.it/265x290 {{ end }}"></a><h5 class="gray-text margin-ten no-margin-bottom xs-margin-top-five">Hockey Challenge</h5></div>
-                        <div class="col-md-3 col-sm-6 text-center xs-margin-bottom-ten"><img alt="" src="{{ if .Params.lockimg }} /assets/images/hsb/eight/{{ .Params.lockimg }} {{ else }} http://placehold.it/265x290 {{ end }}"></a><h5 class="gray-text margin-ten no-margin-bottom xs-margin-top-five">Cooking Pho</h5></div>
-                        <div class="col-md-3 col-sm-6 text-center xs-margin-bottom-ten"><img alt="" src="{{ if .Params.lockimg }} /assets/images/hsb/eight/{{ .Params.lockimg }} {{ else }} http://placehold.it/265x290 {{ end }}"></a><h5 class="gray-text margin-ten no-margin-bottom xs-margin-top-five">Nail a Backflip</h5></div>
-                        <div class="col-md-3 col-sm-6 text-center"><img alt="" src="{{ if .Params.lockimg }} /assets/images/hsb/eight/{{ .Params.lockimg }} {{ else }} http://placehold.it/265x290 {{ end }}"></a><h5 class="gray-text margin-ten no-margin-bottom xs-margin-top-five">New Language Challenge</h5></div>
+                        {{ $ac1 := $achallenges.ac1 }}
+                        <div class="col-md-3 col-sm-6 text-center xs-margin-bottom-ten">{{ if $ac1.unlock }}<a href="{{ .Site.BaseURL }}{{ $ac1.link }}"><img alt="" src="/assets/images/hsb/eight/{{ $ac1.image }}"></a>{{ else }}<img alt="" src="/assets/images/hsb/eight/{{ $ac1.lockimage }}">{{end}}<h5 class="gray-text margin-ten no-margin-bottom xs-margin-top-five">{{ $ac1.name }}</h5></div>
+                        {{ $ac2 := $achallenges.ac2 }}
+                        <div class="col-md-3 col-sm-6 text-center xs-margin-bottom-ten">{{ if $ac2.unlock }}<a href="{{ .Site.BaseURL }}{{ $ac2.link }}"><img alt="" src="/assets/images/hsb/eight/{{ $ac2.image }}"></a>{{ else }}<img alt="" src="/assets/images/hsb/eight/{{ $ac2.lockimage }}">{{end}}<h5 class="gray-text margin-ten no-margin-bottom xs-margin-top-five">{{ $ac2.name }}</h5></div>
+                        {{ $ac3 := $achallenges.ac3 }}
+                        <div class="col-md-3 col-sm-6 text-center xs-margin-bottom-ten">{{ if $ac3.unlock }}<a href="{{ .Site.BaseURL }}{{ $ac3.link }}"><img alt="" src="/assets/images/hsb/eight/{{ $ac3.image }}"></a>{{ else }}<img alt="" src="/assets/images/hsb/eight/{{ $ac3.lockimage }}">{{end}}<h5 class="gray-text margin-ten no-margin-bottom xs-margin-top-five">{{ $ac3.name }}</h5></div>
+                        {{ $ac4 := $achallenges.ac4 }}
+                        <div class="col-md-3 col-sm-6 text-center xs-margin-bottom-ten">{{ if $ac4.unlock }}<a href="{{ .Site.BaseURL }}{{ $ac4.link }}"><img alt="" src="/assets/images/hsb/eight/{{ $ac4.image }}"></a>{{ else }}<img alt="" src="/assets/images/hsb/eight/{{ $ac4.lockimage }}">{{end}}<h5 class="gray-text margin-ten no-margin-bottom xs-margin-top-five">{{ $ac4.name }}</h5></div>
                     </div>
                     <div class="item">
-                        <div class="col-md-3 col-sm-6 text-center xs-margin-bottom-ten"><img alt="" src="{{ if .Params.lockimg }} /assets/images/hsb/eight/{{ .Params.lockimg }} {{ else }} http://placehold.it/265x290 {{ end }}"></a><h5 class="gray-text margin-ten no-margin-bottom xs-margin-top-five">Photography Series</h5></div>
-                        <div class="col-md-3 col-sm-6 text-center xs-margin-bottom-ten"><img alt="" src="{{ if .Params.lockimg }} /assets/images/hsb/eight/{{ .Params.lockimg }} {{ else }} http://placehold.it/265x290 {{ end }}"></a><h5 class="gray-text margin-ten no-margin-bottom xs-margin-top-five">40 Straight Pull-Ups</h5></div>
-                        <div class="col-md-3 col-sm-6 text-center xs-margin-bottom-ten"><img alt="" src="{{ if .Params.lockimg }} /assets/images/hsb/eight/{{ .Params.lockimg }} {{ else }} http://placehold.it/265x290 {{ end }}"></a><h5 class="gray-text margin-ten no-margin-bottom xs-margin-top-five">Swimming Challenge</h5></div>
-                        <div class="col-md-3 col-sm-6 text-center"><img alt="" src="{{ if .Params.lockimg }} /assets/images/hsb/eight/{{ .Params.lockimg }} {{ else }} http://placehold.it/265x290 {{ end }}"></a><h5 class="gray-text margin-ten no-margin-bottom xs-margin-top-five">Bouldering Challenge</h5></div>
+                        {{ $ac5 := $achallenges.ac5 }}
+                        <div class="col-md-3 col-sm-6 text-center xs-margin-bottom-ten">{{ if $ac5.unlock }}<a href="{{ .Site.BaseURL }}{{ $ac5.link }}"><img alt="" src="/assets/images/hsb/eight/{{ $ac5.image }}"></a>{{ else }}<img alt="" src="/assets/images/hsb/eight/{{ $ac5.lockimage }}">{{end}}<h5 class="gray-text margin-ten no-margin-bottom xs-margin-top-five">{{ $ac5.name }}</h5></div>
+                        {{ $ac6 := $achallenges.ac6 }}
+                        <div class="col-md-3 col-sm-6 text-center xs-margin-bottom-ten">{{ if $ac6.unlock }}<a href="{{ .Site.BaseURL }}{{ $ac6.link }}"><img alt="" src="/assets/images/hsb/eight/{{ $ac6.image }}"></a>{{ else }}<img alt="" src="/assets/images/hsb/eight/{{ $ac6.lockimage }}">{{end}}<h5 class="gray-text margin-ten no-margin-bottom xs-margin-top-five">{{ $ac6.name }}</h5></div>
+                        {{ $ac7 := $achallenges.ac7 }}
+                        <div class="col-md-3 col-sm-6 text-center xs-margin-bottom-ten">{{ if $ac7.unlock }}<a href="{{ .Site.BaseURL }}{{ $ac7.link }}"><img alt="" src="/assets/images/hsb/eight/{{ $ac7.image }}"></a>{{ else }}<img alt="" src="/assets/images/hsb/eight/{{ $ac7.lockimage }}">{{end}}<h5 class="gray-text margin-ten no-margin-bottom xs-margin-top-five">{{ $ac7.name }}</h5></div>
+                        {{ $ac8 := $achallenges.ac8 }}
+                        <div class="col-md-3 col-sm-6 text-center xs-margin-bottom-ten">{{ if $ac8.unlock }}<a href="{{ .Site.BaseURL }}{{ $ac8.link }}"><img alt="" src="/assets/images/hsb/eight/{{ $ac8.image }}"></a>{{ else }}<img alt="" src="/assets/images/hsb/eight/{{ $ac8.lockimage }}">{{end}}<h5 class="gray-text margin-ten no-margin-bottom xs-margin-top-five">{{ $ac8.name }}</h5></div>
                     </div>
                     <div class="item">
-                        <div class="col-md-3 col-sm-6 text-center xs-margin-bottom-ten"><img alt="" src="{{ if .Params.lockimg }} /assets/images/hsb/eight/{{ .Params.lockimg }} {{ else }} http://placehold.it/265x290 {{ end }}"></a><h5 class="gray-text margin-ten no-margin-bottom xs-margin-top-five">HughSamBros Hoodie</h5></div>
-                        <div class="col-md-3 col-sm-6 text-center xs-margin-bottom-ten"><img alt="" src="{{ if .Params.lockimg }} /assets/images/hsb/eight/{{ .Params.lockimg }} {{ else }} http://placehold.it/265x290 {{ end }}"></a><h5 class="gray-text margin-ten no-margin-bottom xs-margin-top-five">Create a Chatbot</h5></div>
-                        <div class="col-md-3 col-sm-6 text-center xs-margin-bottom-ten"><img alt="" src="{{ if .Params.lockimg }} /assets/images/hsb/eight/{{ .Params.lockimg }} {{ else }} http://placehold.it/265x290 {{ end }}"></a><h5 class="gray-text margin-ten no-margin-bottom xs-margin-top-five">Rap Freestyle</h5></div>
-                        <div class="col-md-3 col-sm-6 text-center"><img alt="" src="{{ if .Params.lockimg }} /assets/images/hsb/eight/{{ .Params.lockimg }} {{ else }} http://placehold.it/265x290 {{ end }}"></a><h5 class="gray-text margin-ten no-margin-bottom xs-margin-top-five">Rubik's Cube Challenge</h5></div>
+                        {{ $ac9 := $achallenges.ac9 }}
+                        <div class="col-md-3 col-sm-6 text-center xs-margin-bottom-ten">{{ if $ac9.unlock }}<a href="{{ .Site.BaseURL }}{{ $ac9.link }}"><img alt="" src="/assets/images/hsb/eight/{{ $ac9.image }}"></a>{{ else }}<img alt="" src="/assets/images/hsb/eight/{{ $ac9.lockimage }}">{{end}}<h5 class="gray-text margin-ten no-margin-bottom xs-margin-top-five">{{ $ac9.name }}</h5></div>
+                        {{ $ac10 := $achallenges.ac10 }}
+                        <div class="col-md-3 col-sm-6 text-center xs-margin-bottom-ten">{{ if $ac10.unlock }}<a href="{{ .Site.BaseURL }}{{ $ac10.link }}"><img alt="" src="/assets/images/hsb/eight/{{ $ac10.image }}"></a>{{ else }}<img alt="" src="/assets/images/hsb/eight/{{ $ac10.lockimage }}">{{end}}<h5 class="gray-text margin-ten no-margin-bottom xs-margin-top-five">{{ $ac10.name }}</h5></div>
+                        {{ $ac11 := $achallenges.ac11 }}
+                        <div class="col-md-3 col-sm-6 text-center xs-margin-bottom-ten">{{ if $ac11.unlock }}<a href="{{ .Site.BaseURL }}{{ $ac11.link }}"><img alt="" src="/assets/images/hsb/eight/{{ $ac11.image }}"></a>{{ else }}<img alt="" src="/assets/images/hsb/eight/{{ $ac11.lockimage }}">{{end}}<h5 class="gray-text margin-ten no-margin-bottom xs-margin-top-five">{{ $ac11.name }}</h5></div>
+                        {{ $ac12 := $achallenges.ac12 }}
+                        <div class="col-md-3 col-sm-6 text-center xs-margin-bottom-ten">{{ if $ac12.unlock }}<a href="{{ .Site.BaseURL }}{{ $ac12.link }}"><img alt="" src="/assets/images/hsb/eight/{{ $ac12.image }}"></a>{{ else }}<img alt="" src="/assets/images/hsb/eight/{{ $ac12.lockimage }}">{{end}}<h5 class="gray-text margin-ten no-margin-bottom xs-margin-top-five">{{ $ac12.name }}</h5></div>
                     </div>
                 </div>
             </div>
@@ -88,24 +113,37 @@
                     </div>
                     <!-- end section title -->
                 </div>
+                {{ $nchallenges := .Params.nicchallenges }}
                 <div class="carousel-inner margin-seven no-margin-bottom">
                     <div class="item active">
-                        <div class="col-md-3 col-sm-6 text-center xs-margin-bottom-ten"><a href="{{ .Site.BaseURL }}/blog/2018/01/nkc1-the-cooking-challenge/"><img alt="" src="{{ if .Params.nkcimg1 }} /assets/images/hsb/eight/{{ .Params.nkcimg1 }} {{ else }} http://placehold.it/265x290 {{ end }}"></a><h5 class="gray-text margin-ten no-margin-bottom xs-margin-top-five">Cooking Challenge</h5></div>
-                        <div class="col-md-3 col-sm-6 text-center xs-margin-bottom-ten"><img alt="" src="{{ if .Params.lockimg }} /assets/images/hsb/eight/{{ .Params.lockimg }} {{ else }} http://placehold.it/265x290 {{ end }}"></a><h5 class="gray-text margin-ten no-margin-bottom xs-margin-top-five">Make an App</h5></div>
-                        <div class="col-md-3 col-sm-6 text-center xs-margin-bottom-ten"><img alt="" src="{{ if .Params.lockimg }} /assets/images/hsb/eight/{{ .Params.lockimg }} {{ else }} http://placehold.it/265x290 {{ end }}"></a><h5 class="gray-text margin-ten no-margin-bottom xs-margin-top-five">Nail a Backflip</h5></div>
-                        <div class="col-md-3 col-sm-6 text-center"><img alt="" src="{{ if .Params.lockimg }} /assets/images/hsb/eight/{{ .Params.lockimg }} {{ else }} http://placehold.it/265x290 {{ end }}"></a><h5 class="gray-text margin-ten no-margin-bottom xs-margin-top-five">New Language Challenge</h5></div>
+                        {{ $nc1 := $nchallenges.nc1 }}
+                        <div class="col-md-3 col-sm-6 text-center xs-margin-bottom-ten">{{ if $nc1.unlock }}<a href="{{ .Site.BaseURL }}{{ $nc1.link }}"><img alt="" src="/assets/images/hsb/eight/{{ $nc1.image }}"></a>{{ else }}<img alt="" src="/assets/images/hsb/eight/{{ $nc1.lockimage }}">{{end}}<h5 class="gray-text margin-ten no-margin-bottom xs-margin-top-five">{{ $nc1.name }}</h5></div>
+                        {{ $nc2 := $nchallenges.nc2 }}
+                        <div class="col-md-3 col-sm-6 text-center xs-margin-bottom-ten">{{ if $nc2.unlock }}<a href="{{ .Site.BaseURL }}{{ $nc2.link }}"><img alt="" src="/assets/images/hsb/eight/{{ $nc2.image }}"></a>{{ else }}<img alt="" src="/assets/images/hsb/eight/{{ $nc2.lockimage }}">{{end}}<h5 class="gray-text margin-ten no-margin-bottom xs-margin-top-five">{{ $nc2.name }}</h5></div>
+                        {{ $nc3 := $nchallenges.nc3 }}
+                        <div class="col-md-3 col-sm-6 text-center xs-margin-bottom-ten">{{ if $nc3.unlock }}<a href="{{ .Site.BaseURL }}{{ $nc3.link }}"><img alt="" src="/assets/images/hsb/eight/{{ $nc3.image }}"></a>{{ else }}<img alt="" src="/assets/images/hsb/eight/{{ $nc3.lockimage }}">{{end}}<h5 class="gray-text margin-ten no-margin-bottom xs-margin-top-five">{{ $nc3.name }}</h5></div>
+                        {{ $nc4 := $nchallenges.nc4 }}
+                        <div class="col-md-3 col-sm-6 text-center xs-margin-bottom-ten">{{ if $nc4.unlock }}<a href="{{ .Site.BaseURL }}{{ $nc4.link }}"><img alt="" src="/assets/images/hsb/eight/{{ $nc4.image }}"></a>{{ else }}<img alt="" src="/assets/images/hsb/eight/{{ $nc4.lockimage }}">{{end}}<h5 class="gray-text margin-ten no-margin-bottom xs-margin-top-five">{{ $nc4.name }}</h5></div>
                     </div>
                     <div class="item">
-                        <div class="col-md-3 col-sm-6 text-center xs-margin-bottom-ten"><img alt="" src="{{ if .Params.lockimg }} /assets/images/hsb/eight/{{ .Params.lockimg }} {{ else }} http://placehold.it/265x290 {{ end }}"></a><h5 class="gray-text margin-ten no-margin-bottom xs-margin-top-five">Beatbox Freestyle</h5></div>
-                        <div class="col-md-3 col-sm-6 text-center xs-margin-bottom-ten"><img alt="" src="{{ if .Params.lockimg }} /assets/images/hsb/eight/{{ .Params.lockimg }} {{ else }} http://placehold.it/265x290 {{ end }}"></a><h5 class="gray-text margin-ten no-margin-bottom xs-margin-top-five">Video Challenge</h5></div>
-                        <div class="col-md-3 col-sm-6 text-center xs-margin-bottom-ten"><img alt="" src="{{ if .Params.lockimg }} /assets/images/hsb/eight/{{ .Params.lockimg }} {{ else }} http://placehold.it/265x290 {{ end }}"></a><h5 class="gray-text margin-ten no-margin-bottom xs-margin-top-five">Swimming Challenge</h5></div>
-                        <div class="col-md-3 col-sm-6 text-center"><img alt="" src="{{ if .Params.lockimg }} /assets/images/hsb/eight/{{ .Params.lockimg }} {{ else }} http://placehold.it/265x290 {{ end }}"></a><h5 class="gray-text margin-ten no-margin-bottom xs-margin-top-five">Choreography Series</h5></div>
+                        {{ $nc5 := $nchallenges.nc5 }}
+                        <div class="col-md-3 col-sm-6 text-center xs-margin-bottom-ten">{{ if $nc5.unlock }}<a href="{{ .Site.BaseURL }}{{ $nc5.link }}"><img alt="" src="/assets/images/hsb/eight/{{ $nc5.image }}"></a>{{ else }}<img alt="" src="/assets/images/hsb/eight/{{ $nc5.lockimage }}">{{end}}<h5 class="gray-text margin-ten no-margin-bottom xs-margin-top-five">{{ $nc5.name }}</h5></div>
+                        {{ $nc6 := $nchallenges.nc6 }}
+                        <div class="col-md-3 col-sm-6 text-center xs-margin-bottom-ten">{{ if $nc6.unlock }}<a href="{{ .Site.BaseURL }}{{ $nc6.link }}"><img alt="" src="/assets/images/hsb/eight/{{ $nc6.image }}"></a>{{ else }}<img alt="" src="/assets/images/hsb/eight/{{ $nc6.lockimage }}">{{end}}<h5 class="gray-text margin-ten no-margin-bottom xs-margin-top-five">{{ $nc6.name }}</h5></div>
+                        {{ $nc7 := $nchallenges.nc7 }}
+                        <div class="col-md-3 col-sm-6 text-center xs-margin-bottom-ten">{{ if $nc7.unlock }}<a href="{{ .Site.BaseURL }}{{ $nc7.link }}"><img alt="" src="/assets/images/hsb/eight/{{ $nc7.image }}"></a>{{ else }}<img alt="" src="/assets/images/hsb/eight/{{ $nc7.lockimage }}">{{end}}<h5 class="gray-text margin-ten no-margin-bottom xs-margin-top-five">{{ $nc7.name }}</h5></div>
+                        {{ $nc8 := $nchallenges.nc8 }}
+                        <div class="col-md-3 col-sm-6 text-center xs-margin-bottom-ten">{{ if $nc8.unlock }}<a href="{{ .Site.BaseURL }}{{ $nc8.link }}"><img alt="" src="/assets/images/hsb/eight/{{ $nc8.image }}"></a>{{ else }}<img alt="" src="/assets/images/hsb/eight/{{ $nc8.lockimage }}">{{end}}<h5 class="gray-text margin-ten no-margin-bottom xs-margin-top-five">{{ $nc8.name }}</h5></div>
                     </div>
                     <div class="item">
-                        <div class="col-md-3 col-sm-6 text-center xs-margin-bottom-ten"><img alt="" src="{{ if .Params.lockimg }} /assets/images/hsb/eight/{{ .Params.lockimg }} {{ else }} http://placehold.it/265x290 {{ end }}"></a><h5 class="gray-text margin-ten no-margin-bottom xs-margin-top-five">Basketball Challenge</h5></div>
-                        <div class="col-md-3 col-sm-6 text-center xs-margin-bottom-ten"><img alt="" src="{{ if .Params.lockimg }} /assets/images/hsb/eight/{{ .Params.lockimg }} {{ else }} http://placehold.it/265x290 {{ end }}"></a><h5 class="gray-text margin-ten no-margin-bottom xs-margin-top-five">Create a Chatbot</h5></div>
-                        <div class="col-md-3 col-sm-6 text-center xs-margin-bottom-ten"><img alt="" src="{{ if .Params.lockimg }} /assets/images/hsb/eight/{{ .Params.lockimg }} {{ else }} http://placehold.it/265x290 {{ end }}"></a><h5 class="gray-text margin-ten no-margin-bottom xs-margin-top-five">Rap Freestyle</h5></div>
-                        <div class="col-md-3 col-sm-6 text-center"><img alt="" src="{{ if .Params.lockimg }} /assets/images/hsb/eight/{{ .Params.lockimg }} {{ else }} http://placehold.it/265x290 {{ end }}"></a><h5 class="gray-text margin-ten no-margin-bottom xs-margin-top-five">Write a Short Story</h5></div>
+                        {{ $nc9 := $nchallenges.nc9 }}
+                        <div class="col-md-3 col-sm-6 text-center xs-margin-bottom-ten">{{ if $nc9.unlock }}<a href="{{ .Site.BaseURL }}{{ $nc9.link }}"><img alt="" src="/assets/images/hsb/eight/{{ $nc9.image }}"></a>{{ else }}<img alt="" src="/assets/images/hsb/eight/{{ $nc9.lockimage }}">{{end}}<h5 class="gray-text margin-ten no-margin-bottom xs-margin-top-five">{{ $nc9.name }}</h5></div>
+                        {{ $nc10 := $nchallenges.nc10 }}
+                        <div class="col-md-3 col-sm-6 text-center xs-margin-bottom-ten">{{ if $nc10.unlock }}<a href="{{ .Site.BaseURL }}{{ $nc10.link }}"><img alt="" src="/assets/images/hsb/eight/{{ $nc10.image }}"></a>{{ else }}<img alt="" src="/assets/images/hsb/eight/{{ $nc10.lockimage }}">{{end}}<h5 class="gray-text margin-ten no-margin-bottom xs-margin-top-five">{{ $nc10.name }}</h5></div>
+                        {{ $nc11 := $nchallenges.nc11 }}
+                        <div class="col-md-3 col-sm-6 text-center xs-margin-bottom-ten">{{ if $nc11.unlock }}<a href="{{ .Site.BaseURL }}{{ $nc11.link }}"><img alt="" src="/assets/images/hsb/eight/{{ $nc11.image }}"></a>{{ else }}<img alt="" src="/assets/images/hsb/eight/{{ $nc11.lockimage }}">{{end}}<h5 class="gray-text margin-ten no-margin-bottom xs-margin-top-five">{{ $nc11.name }}</h5></div>
+                        {{ $nc12 := $nchallenges.nc12 }}
+                        <div class="col-md-3 col-sm-6 text-center xs-margin-bottom-ten">{{ if $nc12.unlock }}<a href="{{ .Site.BaseURL }}{{ $nc12.link }}"><img alt="" src="/assets/images/hsb/eight/{{ $nc12.image }}"></a>{{ else }}<img alt="" src="/assets/images/hsb/eight/{{ $nc12.lockimage }}">{{end}}<h5 class="gray-text margin-ten no-margin-bottom xs-margin-top-five">{{ $nc12.name }}</h5></div>
                     </div>
                 </div>
             </div>

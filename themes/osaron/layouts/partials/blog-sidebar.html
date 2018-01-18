@@ -6,8 +6,8 @@
         <div class="thin-separator-line bg-dark-gray no-margin-lr"></div>
         <div class="widget-body">
             <ul class="category-list">
-                {{ range $name, $taxonomy := .Site.Taxonomies.categories }}
-                    <li><a href="/categories/{{ $name | urlize }}">{{ $name | upper }} ({{ $taxonomy.Count }})</a></li>
+                {{ range first 5 .Site.Taxonomies.categories.ByCount }}
+                    <li><a href="/categories/{{ .Name | urlize }}">{{ .Name | upper }} ({{ .Count }})</a></li>
                 {{end}}
             </ul>
         </div>
@@ -34,7 +34,7 @@
         <h5 class="widget-title font-alt">Tags Cloud</h5>
         <div class="thin-separator-line bg-dark-gray no-margin-lr"></div>
         <div class="widget-body tags">
-            {{ range first 6 .Site.Taxonomies.tags.ByCount}}
+            {{ range first 6 .Site.Taxonomies.tags.ByCount }}
                 <a href="/tags/{{ .Name | urlize }}">{{ .Name }}</a>
             {{end}}
         </div>

@@ -6,7 +6,7 @@ draft: false
 author: "Nicholas Hugh Sam"
 comments: true
 description: "this is the introduction post to my cooking challenge for January 2018"
-img: "nkc1-cooking.jpg"
+img: "nkc1-cooking2.jpg"
 slug : "nkc1-the-cooking-challenge"
 shorttitle: "Nic's Cooking Challenge"
 tags: ["Cooking"]

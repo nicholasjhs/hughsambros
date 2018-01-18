@@ -14,15 +14,17 @@ categories: ["Alex", "AKC", "Kaizen"]
 ---
 The whole idea of starting hughsambros.com came after I read through Max Deutsch's project he called [Month to Master (M2M)](https://medium.com/@maxdeutsch/m2m-day-1-completing-12-ridiculously-hard-challenges-in-12-months-9843700c741f). During this project, Max spent one year trying to complete 12 super hard challenges (tackling 1 every month) such as drawing a realistic self-portrait, solving a Rubik's cube in 20 seconds, memorizing the order of a deck of cards in less two minutes and doing a freestyle-rap for 3 min.
 
-I've always been someone who loved to try new things, and this would give me the opportunity to do so. I determined that the mastery part wasn't as important for me, and the main focus would be on the progression of the skill that I would be tackling. This is why I decided to name these challenges the Kaizen Challenge (KC - NKC for Nich's Kaizen Challenge and AKC for Alex's Kaizen Challenge).
+I’ve always been someone who loved to try new things, and this would give me the opportunity to do so. Around the same time, I stumbled upon this Japanese word, _Kaizen_, which means "change for the better", or more simply, "to improve", and I felt that it would be the perfect word to describe what the challenges would be about. Unlike Max, the importance of these challenges is that I would start at a point A and would finish at a point B. Thus, the Kaizen Challenge (KC) was born. In our blog, we will refer to _NKC_ for Nich's Kaizen challenges and _AKC_ for mine.
 
-Now how did I drag my brother into this? To put you into context, we still both live at home with our Mom (yay for free yummy hot cooked meals), so we see and talk to each other everyday. We also have this weird connection where we tend to have similar ideas around the same time. (*Nich taking over*) So, one day, I was talking to Alex about how I wanted to start a blog to talk about all these ideas that I have all the time in hopes that someone would read my blog and actually make my idea come to life. At the same time, Alex was like OBSESSED with Max Deustch so he was like "Yo! I kinda also want to start my own blog and do something similar to M2M". Consequently, being the brothers we are and our desire of co-owning SOMETHING, we decided to merge our blog ideas and created HughSamBros.
+Now how did I drag my brother into this? To put you into context, we still both live at home with our Mom (yay for free yummy hot cooked meals), so we see and talk to each other everyday. We also have this weird connection where we tend to have similar ideas around the same time. (_Nich taking over_) So, one day, I was talking to Alex about how I wanted to start a blog to talk about all these ideas that I have all the time in hopes that someone would read my blog and actually make my idea come to life. At the same time, Alex was like OBSESSED with Max Deustch so he was like “Yo! I kinda also want to start my own blog and do something similar to M2M”. Consequently, being the brothers we are and our desire of co-owning SOMETHING, we decided to merge our blog ideas and created HughSamBros.
 
-We were both super excited about this project, and didn't want to wait until the New Year to start, so we decided to start this project in the middle of the month. To compensate for this, instead of doing 12 challenges, we would be doing 12.5. One smaller one that would start now until the end of the year, and 12 "real" challenges that will start in January.
+We were both super excited about this project, and didn’t want to wait until the New Year to start, so we decided to start this project in the middle of the month. To compensate for this, instead of doing 12 challenges, we would be doing 12.5. One smaller one that would start now until the end of the year, and 12 “real” challenges that will start in January.
 
-Starting tomorrow, December 18th, 2017, and for all of 2018, we will both be embarking in this journey of self-exploration where every month we will try (and hopefully complete) one new challenge and documenting our progress through this website.
+Starting tomorrow, December 18th, 2017, and for all 2018, we will both be embarking in this journey of self-exploration where every month we will try (and hopefully complete) one new challenge and documenting our progress through this website.
 
-Without further ado, here are Nicholas' list of challenges:
+Without further ado, here are
+
+**Nicholas' list of challenges:**
 
 December 2017 - Challenge 0: Build a Static Blog
 
@@ -52,7 +54,7 @@ December 2018 - Challenge 12: Write a Short Story
 
 
 
-And Alexander's:
+**And Alexander's:**
 
 December 2017 - Challenge 0: Create a Vision Board
 
