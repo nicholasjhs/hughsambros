@@ -5,10 +5,10 @@ publishdate: 2018-01-18T10:42:12-05:00
 draft: true
 author: "Nicholas Hugh Sam"
 comments: true
-description: "The second meal that I made was 'traditional' Mexican tacos"
-img: ""
-slug : ""
-shorttitle: "Short title of the post"
-tags: []
-categories: []
+description: "The second meal that I made was 'traditional' Mexican tacos. Can't forget the Guac'"
+img: "nkc1-2-cooking-tacos.jpg"
+slug : "nkc1-2-my-second-meal"
+shorttitle: "Tacos for Wackos"
+tags: ["Cooking", "Food"]
+categories: ["NKC", "Nich", "Kaizen"]
 ---

@@ -7,7 +7,7 @@ paginate = 5
 
 [params]
     facebookLink = "https://www.facebook.com/hughsambros/"
-    youtubeLink = "https://www.youtube.com/"
+    youtubeLink = "https://www.youtube.com/channel/UCFP-ZDvmSS_4Q4x_VGRSlOQ"
     instagramLink = "https://www.instagram.com/hughsambros/"
 [taxonomies]
     tag = "tags"
