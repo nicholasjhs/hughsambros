@@ -51,8 +51,8 @@ alexchallenges:
         unlock: false
     ac7:
         name: 'Swimming Challenge'
-        image: 'kc7-lifeguard-test.jpg'
-        lockimage: 'kc7-lifeguard-test-lock.jpg'
+        image: 'kc7-lifeguard-test2.jpg'
+        lockimage: 'kc7-lifeguard-test2-lock.jpg'
         link:
         unlock: false
     ac8:
@@ -124,8 +124,8 @@ nicchallenges:
         unlock: false
     nc7:
         name: 'Swimming Challenge'
-        image: 'kc7-lifeguard-test.jpg'
-        lockimage: 'kc7-lifeguard-test-lock.jpg'
+        image: 'kc7-lifeguard-test2.jpg'
+        lockimage: 'kc7-lifeguard-test2-lock.jpg'
         link:
         unlock: false
     nc8:
