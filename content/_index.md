@@ -17,7 +17,7 @@ alexchallenges:
         name: 'Hockey Challenge'
         image: 'akc1-hockey.jpg'
         lockimage: ''
-        link: 'blog/2018/01/akc1-the-hockey-challenge/'
+        link: 'blog/2018/01/akc1-0-the-hockey-challenge/'
         unlock: true
     ac2:
         name: 'Cooking Pho'
@@ -90,7 +90,7 @@ nicchallenges:
         name: 'Cooking Challenge'
         image: 'nkc1-cooking2.jpg'
         lockimage: ''
-        link: 'blog/2018/01/nkc1-the-cooking-challenge/'
+        link: 'blog/2018/01/nkc1-0-the-cooking-challenge/'
         unlock: true
     nc2:
         name: 'Make an App'
