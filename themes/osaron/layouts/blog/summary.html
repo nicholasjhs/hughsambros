@@ -7,6 +7,9 @@
         <div class="blog-date">
             Posted by
             {{ if .Params.author}} {{ .Params.author }} {{end}} | {{ if .PublishDate }} {{ .PublishDate.Format "02 January 2006" }} {{end}}|
+            {{ $count := .Content | countwords }}
+            {{ $readtime := div $count 200 }}
+            Read Time: {{ $readtime }} min |
             {{if .Params.categories}}
                 {{ range .Params.categories}}
                     <a href="{{ "/categories/" | relLangURL }}{{ . | urlize }}">{{ . | upper }}</a> ,

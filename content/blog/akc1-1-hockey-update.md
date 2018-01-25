@@ -1,5 +1,5 @@
 ---
-title: "AKC1: Hockey Update"
+title: "AKC#1: Hockey Update"
 date: 2018-01-18T10:49:14-05:00
 publishdate: 2018-01-18T10:49:14-05:00
 draft: false
