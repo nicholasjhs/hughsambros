@@ -30,27 +30,27 @@ December 2017 - Challenge 0: Build a Static Blog
 
 January 2018 - Challenge 1: Cooking Challenge
 
-February 2018 - Challenge 2: Make an App (MVP)
+February 2018 - Challenge 2: Do a 2-Minute Rap Freestyle
 
-March 2018 - Challenge 3: Successfully Nail a Backflip
+March 2018 - Challenge 3: Make an App (MVP)
 
-April 2018 - Challenge 4: Have a 20-Minute Conversation in a New Language
+April 2018 - Challenge 4: Create a Choreography Series
 
-May 2018 - Challenge 5: Do a 3-Minute Beatbox Freestyle
+May 2018 - Challenge 5: Have a 20-Minute Conversation in a New Language
 
-June 2018 - Challenge 6: Create a Beautiful 7-Minute Video
+June 2018 - Challenge 6: Do a 3-Minute Beatbox Freestyle
 
-July 2018 - Challenge 7: Pass the Lifeguard Test (16 Laps in Under 10 Minutes)
+July 2018 - Challenge 7: Basketball Challenge 
 
-August 2018 - Challenge 8: Create a Choreography Series
+August 2018 - Challenge 8: Write a Short Story
 
-September 2018 - Challenge 9: Basketball Challenge
+September 2018 - Challenge 9: Create a Beautiful 7-Minute Video
 
-October 2018 - Challenge 10: Create a Chatbot
+October 2018 - Challenge 10: Pass the Lifeguard Test (16 Laps in Under 10 Minutes)
 
-November 2018 - Challenge 11: Do a 2-Minute Rap Freestyle
+November 2018 - Challenge 11: Successfully Nail a Backflip
 
-December 2018 - Challenge 12: Write a Short Story
+December 2018 - Challenge 12: Create a Chatbot
 
 
 
@@ -60,27 +60,27 @@ December 2017 - Challenge 0: Create a Vision Board
 
 January 2018 - Challenge 1: Hockey Challenge
 
-February 2018 - Challenge 2: Learn How to Cook Pho
+February 2018 - Challenge 2: Do a 2-Minute Rap Freestyle
 
-March 2018 - Challenge 3: Learn How to Do a Backflip
+March 2018 - Challenge 3: Learn How to Cook Pho
 
-April 2018 - Challenge 4: Have a 20-Minute Conversation in a New Language
+April 2018 - Challenge 4: Do 40 Straight Pull-Ups
 
-May 2018 - Challenge 5: Create a Black&White Photography Series
+May 2018 - Challenge 5: Have a 20-Minute Conversation in a New Language
 
-June 2018 - Challenge 6: Do 40 Straight Pull-Ups
+June 2018 - Challenge 6: Create a Black&White Photography Series
 
-July 2018 - Challenge 7:  Pass the Lifeguard Test (16 Laps in Under 10 Minutes)
+July 2018 - Challenge 7: Solve a Rubik's Cube in Less Than 1-Minute
 
 August 2018 - Challenge 8: Complete One V8 Problem in Bouldering
 
 September 2018 - Challenge 9: Design and Produce a HughSamBros Hoodie
 
-October 2018 - Challenge 10:  Create a Chatbot
+October 2018 - Challenge 10: Pass the Lifeguard Test (16 Laps in Under 10 Minutes)
 
-November 2018 - Challenge 11:  Do a 2-Minute Rap Freestyle
+November 2018 - Challenge 11: Successfully Nail a Backflip
 
-December 2018 - Challenge 12: Solve a Rubik's Cube in Less Than 1-Minute
+December 2018 - Challenge 12: Create a Chatbot
 
 
 
