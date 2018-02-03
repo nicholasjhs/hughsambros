@@ -15,10 +15,10 @@ categories: ["AKC", "Kaizen"]
 Hey everyone! Yup, I've been pretty bad with updating the blog, BUT unlike the vision board, I was able to complete the challenge (GO ME)!!
 
 Since I haven't uploaded a lot, here's me ALMOST completing the challenge the day before:
-{{< youtube tQUHyyDkFHQ >}}
+{{< youtube BxvrsLmhoEA >}}
 
 And here's a video of me completing the challenge the morning after with a few kids in the background watching me do it (can only hear them not see them):
-{{< youtube BxvrsLmhoEA >}}
+{{< youtube tQUHyyDkFHQ >}}
 
 **What I did well:**
 
