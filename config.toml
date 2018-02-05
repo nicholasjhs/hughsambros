@@ -15,6 +15,9 @@ wordsPerMinute = 200
     tag = "tags"
     category = "categories"
 
+[blackfriday]
+    fractions = false
+
 [permalinks]
     blog = "/:section/:year/:month/:filename/"
     singles = "/:filename/"

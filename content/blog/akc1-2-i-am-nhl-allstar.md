@@ -10,7 +10,7 @@ img: "akc1-2-i-am-nhl-allstar.jpg"
 slug : "akc1-2-i-am-nhl-allstar"
 shorttitle: "NHL ALL-STAR"
 tags: []
-categories: ["AKC", "Kaizen"]
+categories: ["AKC", "Kaizen", "Alex"]
 ---
 Hey everyone! Yup, I've been pretty bad with updating the blog, BUT unlike the vision board, I was able to complete the challenge (GO ME)!!
 
@@ -44,7 +44,8 @@ One final thing I learned, and I'm pretty embarrassed to admit this, but I also 
 
 Since I was able to complete the challenge, I'm not sure if I would change anything haha. But I definitely would try and go out more often to practice. I also think that I would've liked to improve the timing of my release since even at the end, you can see me juggling with the puck a few seconds before releasing it.
 
-How much time/money did I spend on the challenge
+**How much time/money did I spend on the challenge:**
+
 I believe I went out 6 times in total throughout the month and I usually went for an hour and a half, so that would be 10.5h in total that I spent just practicing my shot. I'm pretty sure the fact that I was playing hockey throughout the month helped as well, but I didn't count it as actual practice.
 
 For this challenge, I spent around 80$ to buy the goalie pad that I was used to practicing my shots with and around 25$ for more pucks.
