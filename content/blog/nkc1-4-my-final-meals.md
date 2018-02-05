@@ -49,7 +49,7 @@ Not the Worst: Not to praise myself, but I think I am a naturally good chef or a
 A Quick Learner: I was pretty quick at picking up methods to cook more quickly and also starting to notice ways of saving my meals. For example, when I cooked my tacos, we had to close the lid to soften the tacos meat. So, when I was cooking my lunch meal and fucked up by putting the vegetables at the end of the stir fry (so everything else was already soft and the vegetables were still hard), I quickly put a lid on it and at the end, my vegetables were able to soften without making a mush out of everything else.
 
 ![Lunch Meal](/assets/images/hsb/quart/nkc1-4-final-cooking4.jpg)
-This meal is like a fajita stir fry with bell peppers, beans, broccoli and Monterey Jack Cheese. Served with red quinoa (Vegetarian lunch meal). Sorry about the quality of this one, I forgot to properly take a picture of it... mybad.
+This meal is like a fajita stir fry with bell peppers, beans, broccoli and Monterey Jack Cheese. Served with red quinoa (Vegetarian lunch meal). Sorry about the quality of this one, I forgot to properly take a picture of it... mybad. The fajitas dressing is [here](http://allrecipes.com/recipe/232967/fajita-seasoning/) the rest I just improvised
 
 **Challenges:**
 
@@ -60,7 +60,7 @@ Another Challenge was actually knowing where my meal was going. I mean, for some
 Finally, something that I didn't even think about when starting this challenge is all the preparation. From doing the groceries, to even having the right tools to cook, I realized that I really didn't know anything. In terms of groceries, before this challenge, I never understood how hard it was to cook meals without breaking the bank. I mean shit, if you don't buy stuff when they're on sale, groceries for a single meal can cost like 40$ PER MEAL. So yeah man, when you compare all the effort of cooking AND the price of groceries, I can understand how people would sometimes eat McDonald's instead of cooking. Also, in terms of tools, for my butternut squash pasta take 2, my mom actually bought a dough roller and MAN, let me tell you that it was SO. MUCH. EASIER. So yeah, it's good to be ghetto sometimes, but it can make your life a whole lot more complicated.
 
 ![Pasta Meal](/assets/images/hsb/quart/nkc1-4-final-cooking3.jpg)
-This is the butternut squash ravioli take number 2. Made with a dough roller and a wood board also. It was so much easier than using a full bottle of wine.
+This is the butternut squash ravioli take number 2. Made with a dough roller and a wood board also. It was so much easier than using a full bottle of wine. Recipe is [here](https://tasty.co/recipe/easy-butternut-squash-ravioli)
 
 **What I learned:**
 
@@ -80,6 +80,7 @@ Improvised meal made with leftovers (kinda like a fried rice thing).
 PRACTICE PRACTICE PRACTICE AND MORE PRACTICE. I think that was THE thing that I did really badly. In total I cooked maybe 8 meals and who am I kidding that I'll become Gordon Ramsay worthy in 8 meals. So for the next challenge, I really hope that I'll rap more often than I cooked because if not, it's bound to be a disaster.
 
 ![Huevos Rancheros](/assets/images/hsb/quart/nkc1-4-final-cooking1.jpg)
+The Huevos Rancheros I did for breakfast. Recipe can be found here: [Jamie's Huevos Rancheros](http://www.foodnetwork.com/recipes/jamies-huevos-rancheros-recipe-1921736)
 
 **How much time/money did I spend on the challenge:**
 
