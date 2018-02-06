@@ -68,7 +68,7 @@ I learned that refried beans taste gooooood **AF**. When I did my Huevos Rancher
 
 More seriously though, I learned that cooking can be actually FUN, but it can also be really hard if you're not used to doing all the basic stuff such as cutting onions, chopping garlic or just chopping in general (like chopping herbs is really weird and hard unless you do the "chop randomly" technique, which is always easy to do).
 
-I also learned that I'm really not passionated about cooking food. I really love eating food, but I just find that cooking is too frustrating for the amount of goodness that comes out of it. BUT it does what for a really good and not too expensive couples activity. Like if you guys a borderline broke and looking to fill up 3-4 hours of "quality" time together, you can holla at your boy "Cooking Activity" because he'll be there for you.
+I also learned that I'm really not passionated about cooking food. I really love eating food, but I just find that cooking is too frustrating for the amount of goodness that comes out of it. BUT it does make for a really good and not too expensive couples activity. Like if you guys a borderline broke and looking to fill up 3-4 hours of "quality" time together, you can holla at your boy "Cooking Activity" because he'll be there for you.
 
 Overall, I just learned a bunch of little stuff here and there about cooking and that if you put enough effort in it, pretty much anyone can cook a decent meal. I know from now on that whenever I want to cook something, I won't be afraid and I just have to take it one step at a time.
 

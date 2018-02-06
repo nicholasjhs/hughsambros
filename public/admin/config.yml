@@ -42,19 +42,18 @@ collections:
       - {label: "Link", name: "slug", widget: "string", default: "this-is-an-example", pattern: ["^[a-z0-9]+(?:-[a-z0-9/]+)*$", "Use this format: nkc0-this-is-an-example"]}
       - {label: "Body", name: "body", widget: "markdown"}
 
- - name: "homepage"
-   label: "Homepage"
-   editor:
-       preview: false
-   file: "content/_index.md"
-   description: "Page to modify content on the homepage"
-   create: false
-   fields:
-      - {label: "Kaizen Description", name: "kaizendesc", widget: "textarea"}
-      - {label: "Background Picture", name: "background", widget: "image"}
-      - {label: "First Kaizen", name: "firstkaizen", widget: "image"}
-      - {label: "Second Kaizen", name: "secondkaizen", widget: "image"}
-      - name: "alexchallenges"
-        label: "Alex Challenges Carousel"
-        widget: "object"
-        
+  - name: "homepage"
+    label: "Homepage"
+    editor:
+        preview: false
+    file: "content/_index.md"
+    description: "Page to modify content on the homepage"
+    create: false
+    fields:
+       - {label: "Kaizen Description", name: "kaizendesc", widget: "textarea"}
+       - {label: "Background Picture", name: "background", widget: "image"}
+       - {label: "First Kaizen", name: "firstkaizen", widget: "image"}
+       - {label: "Second Kaizen", name: "secondkaizen", widget: "image"}
+       - name: "alexchallenges"
+         label: "Alex Challenges Carousel"
+         widget: "object"
