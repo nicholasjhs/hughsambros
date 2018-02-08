@@ -98,8 +98,8 @@ nicchallenges:
         name: 'Rap Freestyle'
         image: 'kc11-rap-freestyle3.jpg'
         lockimage: 'kc11-rap-freestyle3-lock.jpg'
-        link:
-        unlock: false
+        link: 'blog/2018/02/nkc2-1-rap-challenge/'
+        unlock: true
     nc3:
         name: 'Make an App'
         image: 'nkc2-make-app.jpg'
