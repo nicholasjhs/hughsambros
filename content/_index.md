@@ -21,10 +21,10 @@ alexchallenges:
         unlock: true
     ac2:
         name: 'Rap Freestyle'
-        image: 'kc11-rap-freestyle3.jpg'
-        lockimage: 'kc11-rap-freestyle3-lock.jpg'
-        link:
-        unlock: false
+        image: 'kc11-rap-freestyle.jpg'
+        lockimage: 'kc11-rap-freestyle-lock.jpg'
+        link: 'blog/2018/02/akc2-1-rap-challenge/'
+        unlock: true
     ac3:
         name: 'Cooking Pho'
         image: 'akc2-pho.jpg'
