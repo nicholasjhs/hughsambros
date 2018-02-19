@@ -9,7 +9,7 @@ description: "Second Challenge: The Rap Challenge"
 img: "kc11-rap-freestyle3.jpg"
 slug : "nkc2-1-rap-challenge"
 shorttitle: "MC Nich"
-tags: []
+tags: ["Rap"]
 categories: ["Kaizen", "Nich", "NKC"]
 ---
 My second challenge of 2018 is the rap freestyle challenge!

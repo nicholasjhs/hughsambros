@@ -9,7 +9,7 @@ description: "Second Challenge: The Rap Challenge"
 img: "kc11-rap-freestyle.jpg"
 slug : "akc2-1-rap-challenge"
 shorttitle: "MC Alex"
-tags: []
+tags: ["Rap"]
 categories: ["Alex", "Kaizen", "AKC"]
 ---
 My second challenge of 2018 is the rap freestyle challenge!
