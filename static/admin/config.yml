@@ -3,8 +3,8 @@ backend:
   repo: nicholasjhs/hughsambros # Path to your Github repository
   branch: development # Branch to update (master by default)
 
-media_folder: "themes/osaron/static/assets/images/originals" # specifies where uploaded files will be saved in the repo
-public_folder: "/assets/images/originals" # indicates where they can be found in the published site
+media_folder: "themes/osaron/static/assets/images/uploads" # specifies where uploaded files will be saved in the repo
+public_folder: "/assets/images/uploads" # indicates where they can be found in the published site
 publish_mode: editorial_workflow
 
 collections:
