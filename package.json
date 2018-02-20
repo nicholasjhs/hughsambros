@@ -10,41 +10,31 @@
   ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "uglify": "mkdir -p ./themes/osaron/static/assets/js && uglifyjs ./themes/osaron/static-src/assets/src-js/*.js -m -o ./themes/osaron/static/assets/js/app.js && uglifyjs ./themes/osaron/static-src/assets/src-js/*.js -m -c -o ./themes/osaron/static/assets/js/app.min.js",
-    "css": "mkdir -p ./themes/osaron/static/assets/css && cleancss ./themes/osaron/static-src/assets/src-css/*.css -o ./themes/osaron/static/assets/css/main.min.css",
-    "preimg:optimize": "parallelshell 'mkdir -p ./themes/osaron/static/assets/images/originals' 'mkdir -p ./themes/osaron/static/assets/images/hsb/full-temp' 'mkdir -p ./themes/osaron/static/assets/images/hsb/half-temp' 'mkdir -p ./themes/osaron/static/assets/images/hsb/quart-temp' 'mkdir -p ./themes/osaron/static/assets/images/hsb/eight-temp' 'mkdir -p ./themes/osaron/static/assets/images/hsb/thumb-temp' ",
     "img:optimize": "imagemin ./themes/osaron/static/assets/images/uploads/* -o ./themes/osaron/static/assets/images/uploads ",
-    "cleantemps": "rm -Rf ./themes/osaron/static/assets/images/hsb/full-temp && rm -Rf ./themes/osaron/static/assets/images/hsb/half-temp && rm -Rf ./themes/osaron/static/assets/images/hsb/quart-temp && rm -Rf ./themes/osaron/static/assets/images/hsb/eight-temp && rm -Rf ./themes/osaron/static/assets/images/hsb/thumb-temp",
     "cleanpublic": "rm -Rf ./public",
 
     "prehugo": "npm run cleanpublic",
     "hugo": "hugo",
 
-    "img:resizefull": "image-batch-resizer -d './themes/osaron/static/assets/images/hsb/full-temp' -p 'mod-' -R 'yes' -s '1920x1920>' ",
-    "postimg:resizefull": "renamer --find 'mod-' --replace '' ./themes/osaron/static/assets/images/hsb/full-temp/* && mv ./themes/osaron/static/assets/images/hsb/full-temp/* ./themes/osaron/static/assets/images/hsb/full ",
+    "img:resizefull": "image-batch-resizer -d './themes/osaron/static/assets/images/uploads' -p 'full-' -s '1920x1920>' ",
+    "postimg:resizefull": "mv ./themes/osaron/static/assets/images/uploads/full-* ./themes/osaron/static/assets/images/hsb/full 2>/dev/null || : && renamer --find 'full-' --replace '' ./themes/osaron/static/assets/images/hsb/full/* ",
 
-    "img:resizehalf": "image-batch-resizer -d './themes/osaron/static/assets/images/hsb/half-temp' -p 'mod-' -R 'yes' -s '1200x1200>' ",
-    "postimg:resizehalf": "renamer --find 'mod-' --replace '' ./themes/osaron/static/assets/images/hsb/half-temp/* && mv ./themes/osaron/static/assets/images/hsb/half-temp/* ./themes/osaron/static/assets/images/hsb/half ",
+    "img:resizehalf": "image-batch-resizer -d './themes/osaron/static/assets/images/uploads' -p 'half-' -s '1200x1200>' ",
+    "postimg:resizehalf": "mv ./themes/osaron/static/assets/images/uploads/half-* ./themes/osaron/static/assets/images/hsb/half 2>/dev/null || : && renamer --find 'half-' --replace '' ./themes/osaron/static/assets/images/hsb/half/* ",
 
-    "img:resizequart": "image-batch-resizer -d './themes/osaron/static/assets/images/hsb/quart-temp' -p 'mod-' -R 'yes' -s '800x800>' ",
-    "postimg:resizequart": "renamer --find 'mod-' --replace '' ./themes/osaron/static/assets/images/hsb/quart-temp/* && mv ./themes/osaron/static/assets/images/hsb/quart-temp/* ./themes/osaron/static/assets/images/hsb/quart ",
+    "img:resizequart": "image-batch-resizer -d './themes/osaron/static/assets/images/uploads' -p 'quart-' -s '800x800>' ",
+    "postimg:resizequart": "mv ./themes/osaron/static/assets/images/uploads/quart-* ./themes/osaron/static/assets/images/hsb/quart 2>/dev/null || : && renamer --find 'quart-' --replace '' ./themes/osaron/static/assets/images/hsb/quart/* ",
 
-    "img:resizeeight": "image-batch-resizer -d './themes/osaron/static/assets/images/hsb/eight-temp' -p 'mod-' -R 'yes' -s '400x400>' ",
-    "postimg:resizeeight": "renamer --find 'mod-' --replace '' ./themes/osaron/static/assets/images/hsb/eight-temp/* && mv ./themes/osaron/static/assets/images/hsb/eight-temp/* ./themes/osaron/static/assets/images/hsb/eight ",
+    "img:resizeeight": "image-batch-resizer -d './themes/osaron/static/assets/images/uploads' -p 'eight-' -s '400x400>' ",
+    "postimg:resizeeight": "mv ./themes/osaron/static/assets/images/uploads/eight-* ./themes/osaron/static/assets/images/hsb/eight 2>/dev/null || : && renamer --find 'eight-' --replace '' ./themes/osaron/static/assets/images/hsb/eight/* ",
 
-    "img:resizethumb": "image-batch-resizer -d './themes/osaron/static/assets/images/hsb/thumb-temp' -p 'mod-' -R 'yes' -s '100x100>' ",
-    "postimg:resizethumb": "renamer --find 'mod-' --replace '' ./themes/osaron/static/assets/images/hsb/thumb-temp/* && mv ./themes/osaron/static/assets/images/hsb/thumb-temp/* ./themes/osaron/static/assets/images/hsb/thumb ",
+    "img:resizethumb": "image-batch-resizer -d './themes/osaron/static/assets/images/uploads' -p 'thumb-' -R 'yes' -s '100x100>' ",
+    "postimg:resizethumb": "mv ./themes/osaron/static/assets/images/uploads/thumb-* ./themes/osaron/static/assets/images/hsb/thumb 2>/dev/null || : && renamer --find 'thumb-' --replace '' ./themes/osaron/static/assets/images/hsb/thumb/* ",
 
-    "preimg:resizeuploads": "cp ./themes/osaron/static/assets/images/uploads/*.{jpg,png,jpeg,JPEG,JPG} ./themes/osaron/static/assets/images/hsb/thumb-temp 2>/dev/null || : && cp ./themes/osaron/static/assets/images/uploads/*.{jpg,png,jpeg,JPEG,JPG} ./themes/osaron/static/assets/images/hsb/eight-temp 2>/dev/null || : && cp ./themes/osaron/static/assets/images/uploads/*.{jpg,png,jpeg,JPEG,JPG} ./themes/osaron/static/assets/images/hsb/quart-temp 2>/dev/null || : && cp ./themes/osaron/static/assets/images/uploads/*.{jpg,png,jpeg,JPEG,JPG} ./themes/osaron/static/assets/images/hsb/half-temp 2>/dev/null || : && cp ./themes/osaron/static/assets/images/uploads/*.{jpg,png,jpeg,JPEG,JPG} ./themes/osaron/static/assets/images/hsb/full-temp 2>/dev/null || :",
-    "img:resizeuploads": "parallelshell 'npm run img:resizefull' 'npm run img:resizehalf' 'npm run img:resizequart' 'npm run img:resizeeight' 'npm run img:resizethumb' ",
-    "postimg:resizeuploads": "npm run cleantemps",
-
-    "moveuploads": "mv ./themes/osaron/static/assets/images/uploads/* ./themes/osaron/static/assets/images/originals ",
-
+    "img:resizeuploads": "npm run img:resizefull && npm run img:resizehalf && npm run img:resizequart && npm run img:resizeeight && npm run img:resizethumb",
 
     "prebuild:img": "npm run img:optimize",
     "build:img": "npm run img:resizeuploads",
-    "postbuild:img": "npm run moveuploads",
 
     "build": "npm run build:img && npm run hugo"
   },
