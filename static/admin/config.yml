@@ -13,15 +13,13 @@ collections:
     folder: "content/blog" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
-    editor:
-        preview: false
     fields: # The fields for each document, usually in front matter
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Publish Date", name: "publishdate", widget: "datetime", format: "YYYY-MM-DD HH:mm:ss"}
       - {label: "Draft", name: "draft", widget: "boolean", default: false}
       - {label: "Author", name: "author", widget: "select", options: ["Nicholas Hugh Sam", "Alexander Hugh Sam", "Hugh Sam Bros"]}
       - {label: "Description", name: "description", widget: "text", required: false}
-      - {label: "Featured Image", name: "img", widget: "image", required: false}
+      - {label: "Featured Image", name: "img", widget: "string", required: false}
       - {label: "Link", name: "slug", widget: "string", default: "this-is-an-example", pattern: ["^[a-z0-9]+(?:-[a-z0-9/]+)*$", "Use this format: nkc0-this-is-an-example"]}
       - {label: "Short Title", name: "shorttitle", widget: "string", required: false}
       - {label: "Categories", name: "categories", widget: "list", required: false}
