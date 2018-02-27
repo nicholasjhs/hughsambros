@@ -101,9 +101,9 @@ nicchallenges:
         link: 'blog/2018/02/nkc2-1-rap-challenge/'
         unlock: true
     nc3:
-        name: 'Make an App'
-        image: 'nkc2-make-app.jpg'
-        lockimage: 'nkc2-make-app-lock.jpg'
+        name: 'Learn the Piano'
+        image: 'nkc3-piano.jpg'
+        lockimage: 'nkc3-piano-lock.jpg'
         link:
         unlock: false
     nc4:

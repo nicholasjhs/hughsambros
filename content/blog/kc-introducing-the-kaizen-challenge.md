@@ -32,7 +32,7 @@ January 2018 - Challenge 1: Cooking Challenge
 
 February 2018 - Challenge 2: Do a 2-Minute Rap Freestyle
 
-March 2018 - Challenge 3: Make an App (MVP)
+March 2018 - Challenge 3: Learn to Play the Piano
 
 April 2018 - Challenge 4: Create a Choreography Series
 
