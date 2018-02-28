@@ -4,6 +4,7 @@ publishdate: '2018-02-28 18:30:18'
 draft: false
 author: Nicholas Hugh Sam
 description: Peek to see the final part of my rap challlenge !!
+img: nkc2-final-rap.jpg
 slug: rap-challenge-done-it-was-fun
 shorttitle: Rap or Crap?
 categories:
@@ -19,7 +20,7 @@ First of all, I just want to thank everyone who has been (or still is) following
 
 Well, compared to my cooking challenge, I would say that this was quite an exciting challenge. So exciting in fact that I decided (and Alex also, I think) to continue to the freestyle until I get bored of freestyling or I get decently good enough to retire MC Nich (wouldn't be my rap name btw). So yeah, follow us on Instagram, mainly, if you want more updates on our freestyle progress.
 
-ALSO, for the last video, please follow us on instagram and we'll post a poll about who was better Alex or me!
+ALSO, for the last video, please follow us on [instagram](https://www.instagram.com/hughsambros/) and we'll post a poll about who was better Alex or me!
 
 My final rap:
 
