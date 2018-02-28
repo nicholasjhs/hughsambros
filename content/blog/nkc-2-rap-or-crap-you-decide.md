@@ -1,5 +1,5 @@
 ---
-title: 'NKC#2: Rap or Crap? You Decide !'
+title: 'NKC#2: Rap or Crap? '
 publishdate: '2018-02-28 18:30:18'
 draft: false
 author: Nicholas Hugh Sam
