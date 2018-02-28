@@ -1,6 +1,6 @@
 ---
 title: 'NKC#2: Rap or Crap? You Decide !'
-publishdate: '2018-02-28 17:03:18'
+publishdate: '2018-02-28 18:30:18'
 draft: false
 author: Nicholas Hugh Sam
 description: Peek to see the final part of my rap challlenge !!
@@ -19,7 +19,11 @@ First of all, I just want to thank everyone who has been (or still is) following
 
 Well, compared to my cooking challenge, I would say that this was quite an exciting challenge. So exciting in fact that I decided (and Alex also, I think) to continue to the freestyle until I get bored of freestyling or I get decently good enough to retire MC Nich (wouldn't be my rap name btw). So yeah, follow us on Instagram, mainly, if you want more updates on our freestyle progress.
 
-ALSO, for this challenge I'll let YOU GUYS be the judge so make sure to follow us on Instagram and I'll post a story about how to evaluate me !
+ALSO, for the last video, please follow us on instagram and we'll post a poll about who was better Alex or me!
+
+My final rap:
+
+{{< youtube 3yjo2L2C2kE >}}
 
 **What I Learned:**
 1. Sometimes, PRACTICE is the only way to go. I mean, especially since we only have a month for the challenge, sure we could break this down and try to do rocket science in figuring out the best way to tackle this challenge, but at the end of the day, I think the most important part was to practice. This challenge taught me to get the BARE MAXIMUM out of everything. I borrowed the term "bare maximum" from [Steve Lacy's Ted Talk](https://youtu.be/SUnmrQfdYpg), which essentially means: use the maximum out of everything you can. In terms of tools, opportunities, time, no matter what it is, just use the max of it. It was so easy to say like "hey, I'm not home and I don't have my mic" or "I'm in the bus/metro so I can't practice my rap", but that is NOT TRUE. Every morning, during this cold ~~ass~~ weather, I would put my Spotify Playlist instead of my usual songs and just walk towards the bus while practicing my freestyle. Also, IN the bus, you don't actually have to say the rap out loud, you can just mumble it out or say it in your head. There was no valid reason why I didn't practice as much as I should have, except for the fact that I was lazy about it. That's all. So remember guys, always do The Bare Maximum.
