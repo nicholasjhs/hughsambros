@@ -8,6 +8,10 @@ description: >-
   Hip-Hop? Or was it a total flop?
 img: oscar-keys-58399-unsplash.jpg
 slug: this-is-an-example
+categories:
+  - Kaizen
+  - Alex
+  - AKC
 ---
 Today is the last day of the rap challenge, which means, my final chance to do a 2-min freestyle! 
 
