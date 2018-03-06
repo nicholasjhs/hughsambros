@@ -104,8 +104,8 @@ nicchallenges:
         name: 'Learn the Piano'
         image: 'nkc3-piano.jpg'
         lockimage: 'nkc3-piano-lock.jpg'
-        link:
-        unlock: false
+        link: 'blog/2018/03/nkc-3-introducing-the-piano-challenge/'
+        unlock: true
     nc4:
         name: 'Choreography Series'
         image: 'nkc8-choreo-series.jpg'
