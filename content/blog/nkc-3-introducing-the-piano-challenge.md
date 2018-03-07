@@ -2,6 +2,7 @@
 title: 'NKC#3: Introducing the Piano Challenge'
 publishdate: '2018-03-05 23:26:12'
 draft: false
+comments: true
 author: Nicholas Hugh Sam
 description: >-
   I made a quick change to my challenges at the end of the rap challenge. SO...
