@@ -2,6 +2,7 @@
 title: 'NKC#2: Rap or Crap? '
 publishdate: '2018-02-28 18:30:18'
 draft: false
+comments: true
 author: Nicholas Hugh Sam
 description: Peek to see the final part of my rap challlenge !!
 img: nkc2-final-rap.jpg
