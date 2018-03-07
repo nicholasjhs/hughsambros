@@ -18,6 +18,7 @@ collections:
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Publish Date", name: "publishdate", widget: "datetime", format: "YYYY-MM-DD HH:mm:ss"}
       - {label: "Draft", name: "draft", widget: "boolean", default: false}
+      - {label: "Comments", name: "comments", widget: "boolean", default: true}
       - {label: "Author", name: "author", widget: "select", options: ["Nicholas Hugh Sam", "Alexander Hugh Sam", "Hugh Sam Bros"]}
       - {label: "Description", name: "description", widget: "text", required: false}
       - {label: "Image Look", name: "lookimg", widget: "image", required: false}
