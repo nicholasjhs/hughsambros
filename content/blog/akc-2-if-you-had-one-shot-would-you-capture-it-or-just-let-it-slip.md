@@ -2,6 +2,7 @@
 title: 'AKC#2: If you had one shot ... would you capture it or just let it slip?'
 publishdate: '2018-02-28 23:04:22'
 draft: false
+comments: true
 author: Alexander Hugh Sam
 description: >-
   Last freestyle of the month, did I make it to the top? Am I the new king of
