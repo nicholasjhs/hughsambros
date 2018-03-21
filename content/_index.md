@@ -29,8 +29,8 @@ alexchallenges:
         name: 'Cooking Pho'
         image: 'akc2-pho.jpg'
         lockimage: 'akc2-pho-lock.jpg'
-        link:
-        unlock: false
+        link: 'blog/2018/03/akc-3-introducing-the-pho-challenge/'
+        unlock: true
     ac4:
         name: '40 Straight Pull-Ups'
         image: 'akc6-pull-up.jpg'
