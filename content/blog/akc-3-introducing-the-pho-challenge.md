@@ -4,6 +4,10 @@ publishdate: '2018-03-21 00:07:43'
 draft: false
 comments: true
 author: Alexander Hugh Sam
+description: >-
+  So more than half of the month has already passed and I never even created a
+  blog for my third challenge, but as the saying goes... better late than never,
+  right?
 img: sq_3ds_cookingmamasweetshop.jpg
 slug: this-is-an-example
 ---
