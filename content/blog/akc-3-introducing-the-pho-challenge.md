@@ -9,7 +9,12 @@ description: >-
   blog for my third challenge, but as the saying goes... better late than never,
   right?
 img: sq_3ds_cookingmamasweetshop.jpg
-slug: this-is-an-example
+slug: pho-cooking-challenge
+shorttitle: Cooking PHO
+categories:
+  - Kaizen
+  - AKC
+  - Alex
 ---
 So more than half of the month has already passed and I never even created a blog for my third challenge, but as the saying goes... better late than never, right? If you've been following me on instagram then you most likely know what my challenge is about (if you aren't then holla @hughsambros). This month I'm learning how to cook pho AKA soupe tonkinoise AKA vietnamese soup AKA the meal of gods. If you don't know what Pho is then PLEASE do yourself a favour and go and try it out. Trust me, you'll thank me later (that Drake reference though).
 
