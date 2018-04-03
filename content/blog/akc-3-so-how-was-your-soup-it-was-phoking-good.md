@@ -5,7 +5,7 @@ draft: false
 comments: true
 author: Alexander Hugh Sam
 description: 'I actually learned how to cook Pho!! '
-img: cover_akc3_pho_end
+img: cover_akc3_pho_end.jpg
 slug: this-is-an-example
 shorttitle: Pho Challenge
 categories:
@@ -23,7 +23,7 @@ Here is what my Pho looked like in the end:
 
 
 
-!\[Pho](/assets/images/hsb/quart/ahs_pho_jc_credits.jpg)
+![Pho](/assets/images/hsb/quart/ahs_pho_jc_credits.jpg)
 
 
 
