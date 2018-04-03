@@ -21,7 +21,7 @@ My whole piano performance can be found below.
 
 {{< youtube wMjghIW96CU >}}
 
-
+<br />
 ## My Challenges
 This month was THE worst so far. To put you in context, I had a month to complete the challenge, chose my song 15 days into the challenge, learnt the first 3 seconds of it, had a NANI?! moment, never practiced the song again, had a mental hughsambros breakdown, changed my song on March 29th and failed a bunch of times during my "live performance".
 
@@ -46,7 +46,7 @@ For those who don't know what NANI?! is, here's a short clip for y'all:
 
 {{< youtube L_OuM9cu-G8 >}}
 
-
+<br />
 This upcoming part, was the ÉLÉMENT DÉCLENCHEUR (shoutout to my high school french teachers) of my story. After learning the right hand and the left hand, it was now time to COMBINE them. ANNDD.... I REALLY couldn't do it... Like at all. I would start with my left hand and then as soon as my right hand would start, I would lose all the pace with my left hand. And that's when I was like NANI?! I have to use two sides of my brain for this shizzz or what.
 
 #### Never practiced the song again:
@@ -106,4 +106,4 @@ And this isn't the, NO MATTER WHAT, JUST CONTINUE DOING WHAT YOU'RE DOING AND YO
 
 THAT'S IT FOR ME. LOOK FORWARD TO THE NEXT CHALLENGE. PEACEEEE.
 
--Nich.
+\- Nich.
