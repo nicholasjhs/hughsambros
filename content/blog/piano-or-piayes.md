@@ -21,7 +21,8 @@ My whole piano performance can be found below.
 
 {{< youtube wMjghIW96CU >}}
 
-### My Challenges
+
+## My Challenges
 This month was THE worst so far. To put you in context, I had a month to complete the challenge, chose my song 15 days into the challenge, learnt the first 3 seconds of it, had a NANI?! moment, never practiced the song again, had a mental hughsambros breakdown, changed my song on March 29th and failed a bunch of times during my "live performance".
 
 So, let me break that down for you guys !
@@ -45,6 +46,7 @@ For those who don't know what NANI?! is, here's a short clip for y'all:
 
 {{< youtube L_OuM9cu-G8 >}}
 
+
 This upcoming part, was the ÉLÉMENT DÉCLENCHEUR (shoutout to my high school french teachers) of my story. After learning the right hand and the left hand, it was now time to COMBINE them. ANNDD.... I REALLY couldn't do it... Like at all. I would start with my left hand and then as soon as my right hand would start, I would lose all the pace with my left hand. And that's when I was like NANI?! I have to use two sides of my brain for this shizzz or what.
 
 #### Never practiced the song again:
@@ -66,13 +68,13 @@ I then came back home, and was starting to search the EASIEST songs such as Twin
 My live performance consisted of 2 people and a bunch of YouTube viewers since I posted it ! But for this part, you'll just have to watch the bloopers ;).
 
 
-### What I would do differently
+## What I would do differently
 
 Honestly, after all the challenges that I faced, I wouldn't do anything differently about this challenge. I learned a bunch of stuff about myself during this challenge and learned how challenging piano was and if that isn't what the Kaizen Challenge is all about, then I truly am Young Dumb and Broke (I didnt know what to say to finish it off nicely...)
 
 But honestly though, if I had more time, I would learn God's plan because that song is littttttt.
 
-### What I did well
+## What I did well
 
 Well well, even though this challenge was a disaster, I still did a few good things. Most notably:
 
@@ -84,7 +86,7 @@ Yupp, it's true. I could've had a bunch of douchey friends who were like "yoooo,
 
 I mean, forreal, I was really good at choosing a song that I was able to learn in 3 days that wasn't super hard, but was still challenging enough for me to continue pushing until the end of the challenge.
 
-### What I learned
+## What I learned
 
 #### Piano is hard:
 
