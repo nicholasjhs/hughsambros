@@ -1,12 +1,14 @@
 ---
 title: 'AKC#3: So how was your soup? It was PHOking good!'
 publishdate: '2018-04-02 00:10:16'
-draft: true
+draft: false
 comments: true
 author: Alexander Hugh Sam
 description: ''
 slug: this-is-an-example
 shorttitle: Pho Challenge
+categories:
+  - Kaizen
 ---
 Hey everyone! So yes, I forgot to post an update of my pho challenge, but do not worry, thanks to the Easter Bunny, I have extra time this weekend to produce some content, so at least one more blog will be up by the end of the week!
 
