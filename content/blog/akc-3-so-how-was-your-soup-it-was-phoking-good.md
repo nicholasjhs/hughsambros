@@ -31,7 +31,7 @@ Credits to JC for the pic.
 
 
 
-What I did well
+#### What I did well
 
 
 
@@ -43,7 +43,7 @@ The other thing I did well was that I was prepared. I pretty much planned my who
 
 
 
-**Challenges**
+#### Challenges
 
 
 
@@ -55,7 +55,7 @@ Another challenge I had was that I had a very hard time on how to improve my Pho
 
 
 
-**What I learned**
+#### What I learned
 
 
 
@@ -79,7 +79,7 @@ The last thing I learned was that I actually enjoy cooking. I find it super cool
 
 
 
-**What would I do differently**
+#### What would I do differently
 
 
 
@@ -87,7 +87,7 @@ To be honest, I don't think I would've done anything differently this month. Thi
 
 
 
-**How much time/money I spent on this challenge**
+#### How much time/money I spent on this challenge
 
 
 
@@ -99,7 +99,7 @@ In total, I believe I spent 45$ in total and that was to prepare 14 bowls in tot
 
 
 
-**Conclusion**
+#### Conclusion
 
 
 
@@ -107,4 +107,4 @@ I am SUPER happy with how this challenge went. If one year ago you would've told
 
 
 
-\- Alex
+\- Alex.
