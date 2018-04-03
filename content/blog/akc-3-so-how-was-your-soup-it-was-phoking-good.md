@@ -4,7 +4,7 @@ publishdate: '2018-04-02 00:10:16'
 draft: false
 comments: true
 author: Alexander Hugh Sam
-description: ''
+description: 'I actually learned how to cook Pho!! '
 img: cover_akc3_pho_end
 slug: this-is-an-example
 shorttitle: Pho Challenge
